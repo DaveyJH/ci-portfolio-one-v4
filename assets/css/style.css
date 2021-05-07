@@ -85,3 +85,11 @@ nav li {
 nav li:last-of-type {
     border: none;
 }
+/* end of nav section */
+/* end of header */
+
+/* start of main */
+.desktop-home-image {
+    visibility: hidden;
+    display: none;
+}
