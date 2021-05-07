@@ -88,6 +88,17 @@ nav li {
     border-top: 0;
     margin: 0 0.1em;
 }
+/* active tab coloring */
+.active {
+    background-color: #E3A2A0;
+    color: #49736B;
+}
+/* hover coloring */
+nav li:hover:not(.active) {
+    background-color: #CEBBC9;
+    font-weight: 600;
+    color: #49736B;
+}
 /* end of nav section */
 /* end of header */
 
@@ -150,5 +161,6 @@ footer ul {
 }
 footer li:hover {
     color: #49736B;
+    transform: scale(1.2);
 }
 /* end of footer */
