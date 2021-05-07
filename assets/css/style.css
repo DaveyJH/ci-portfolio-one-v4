@@ -103,12 +103,16 @@ nav li:hover:not(.active) {
 /* end of header */
 
 /* start of main */
+main>div {
+    height: calc(100vh - 15.5rem);
+    position: relative;
+}
 .desktop-home-image {
     visibility: hidden;
     display: none;
 }
 .top img:first-of-type {
-    margin-top: 4rem;
+    margin-top: calc(34vh - 18rem);
     width: 100%;
 }
 #overlay-text-container {
