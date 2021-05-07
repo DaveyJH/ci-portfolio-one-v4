@@ -51,7 +51,12 @@ With photographic images featuring as a really important aspect of the site, I  
 ![Home Page Wireframe](./readme-content/images/mob-home.png)
 *See [here](./readme-content/wireframes.md#tablet) for other device types*
 #### Colour Scheme
+A neutral color scheme created using [coolors.co](https://coolors.co)
 
+![Colour Scheme](./readme-content/images/khp-color.png)
+
+The scheme applied to the home page
+![Colours Applied](./readme-content/images/mob-col-1.png)
 ***
 ## Features
 
