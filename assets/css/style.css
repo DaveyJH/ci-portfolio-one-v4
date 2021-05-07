@@ -1,3 +1,8 @@
+/* google fonts
+!"Dancing Script" + "Caveat" = 400-700weight no italics
+!"Indie Flower" = ONLY 400reg  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Dancing+Script&family=Work+Sans&display=swap');
+
 html {
     font-size: 62.5%;
 }
@@ -12,14 +17,23 @@ a {
 }
 body {
     background-color: #E4DAE7;
+    font-family: "Work Sans", sans-serif;
 }
 header {
     background-color: #E3A2A0;
     color: #DB8784;
+    font-size: 2rem;
+    text-align: center;
 }
 h1 {
     color: #B05162;
+    font-family: "caveat", cursive, sans-serif;
 }
 h2 {
     color: #49736B;
+    font-family: "Dancing Script", Trebuchet MS, cursive, sans-serif;
+    font-size: 1.3em;
+}
+header i {
+    font-size: 2em;
 }
