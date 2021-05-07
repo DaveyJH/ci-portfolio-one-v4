@@ -25,6 +25,14 @@ header {
     font-size: 2rem;
     text-align: center;
 }
+#header-pink {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header i {
+    font-size: 2em;
+}
 h1 {
     color: #B05162;
     font-family: "caveat", cursive, sans-serif;
@@ -34,6 +42,11 @@ h2 {
     font-family: "Dancing Script", Trebuchet MS, cursive, sans-serif;
     font-size: 1.3em;
 }
-header i {
-    font-size: 2em;
+#header-image {
+    background: url(../images/hamster-400.jpg) no-repeat center center;
+    background-size: 250%;
+    height: 2em;
+    width: 2em;
+    border: 0.5rem solid #DB8784;
+    border-radius: 2rem;
 }
