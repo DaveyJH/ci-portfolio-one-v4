@@ -3,6 +3,7 @@
 !"Indie Flower" = ONLY 400reg  */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Dancing+Script&family=Work+Sans&display=swap');
 
+/* general */
 html {
     font-size: 62.5%;
 }
@@ -19,12 +20,15 @@ body {
     background-color: #E4DAE7;
     font-family: "Work Sans", sans-serif;
 }
+
+/* header start */
 header {
     background-color: #E3A2A0;
     color: #DB8784;
     font-size: 2rem;
     text-align: center;
 }
+/* pink section */
 #header-pink {
     display: flex;
     align-items: center;
@@ -49,4 +53,15 @@ h2 {
     width: 2em;
     border: 0.5rem solid #DB8784;
     border-radius: 2rem;
+}
+/* end of pink section */
+/* nav section */
+nav {
+    background-color: #E4DAE7;
+    font-family: "Indie Flower", cursive, sans-serif;
+    color: #73937E;
+}
+nav li {
+    display: inline-block;
+    padding: 0 0.8rem;
 }
