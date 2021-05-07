@@ -20,16 +20,19 @@ body {
     background-color: #E4DAE7;
     font-family: "Work Sans", sans-serif;
 }
+li {
+    list-style-type: none;
+}
 
 /* header start */
 header {
-    background-color: #E3A2A0;
     color: #DB8784;
     font-size: 2rem;
     text-align: center;
 }
 /* pink section */
 #header-pink {
+    background-color: #E3A2A0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -123,3 +126,28 @@ nav li {
     color: #6E333D;
     font-weight: 600;
 }
+/* end of main */
+
+/* start of footer */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #E3A2A0;
+    font-size: 1rem;
+    color: #E4DAE7;
+    text-align: right;
+}
+footer ul {
+    font-size: 2.5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.4em 1em 0;
+    box-sizing: border-box;
+    color: #73937E;
+}
+footer li:hover {
+    color: #49736B;
+}
+/* end of footer */
