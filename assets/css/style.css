@@ -79,11 +79,10 @@ nav li {
     display: inline-block;
     padding: 0 0.2em;
     font-size: 1.2em;
-    border-right: #CEBBC9 0.1em solid;
+    border: 0.1em solid #CEBBC9;
     flex: 1 1 auto;
-}
-nav li:last-of-type {
-    border: none;
+    border-top: 0;
+    margin: 0 0.1em;
 }
 /* end of nav section */
 /* end of header */
@@ -92,4 +91,35 @@ nav li:last-of-type {
 .desktop-home-image {
     visibility: hidden;
     display: none;
+}
+.top img:first-of-type {
+    margin-top: 4rem;
+    width: 100%;
+}
+#overlay-text-container {
+    background-color:#D2C1D688;
+    font-size: 2rem;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: -10rem;
+    border-radius: 0.8rem;
+    color: #9B4655;
+    text-shadow: 0.1em 0.1em 0.15em #D2C1C6, -0.1em -0.1em 0.15em #D2C1C6;
+    text-transform: capitalize;
+}
+#overlay-text-container p:first-of-type {
+    font-family: "caveat", cursive, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    padding-bottom: 0.2em;
+    letter-spacing: 0.025em;
+}
+#overlay-text-container p:last-of-type {
+    font-family: "Dancing Script", Trebuchet MS, cursive, sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 0.4em;
+    color: #6E333D;
+    font-weight: 600;
 }
