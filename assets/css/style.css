@@ -1,3 +1,25 @@
+html {
+    font-size: 62.5%;
+}
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
-    background-color: tan;
+    background-color: #E4DAE7;
+}
+header {
+    background-color: #E3A2A0;
+    color: #DB8784;
+}
+h1 {
+    color: #B05162;
+}
+h2 {
+    color: #49736B;
 }
