@@ -5,7 +5,7 @@
 - [UX &#8722; User Experience Design](#UX-&#8722;-User-Experience-Design)
 - [Initial Concept](#Initial-Concept)
     - [Wireframes](#Wireframes)
-        - [All Wireframes - Separate Document](/wireframes.md)
+        - [All Wireframes - Separate Document](./readme-content/wireframes.md)
     - [Colour Scheme](#Colour-Scheme)
 - [Features](#Features)
     - [Existing Features](#Existing-Features)
@@ -48,9 +48,10 @@ Some example user stories which will effect the design
 With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind.
 #### Wireframes
 <!-- wireframe images and link to more -->
-<!-- ![Home Page Wireframe](#) -->
-<!-- [All Wireframes - Separate Document](#) -->
+![Home Page Wireframe](./readme-content/images/mob-home.png)
+*See [here](./readme-content/wireframes.md#tablet) for other device types*
 #### Colour Scheme
+
 ***
 ## Features
 
