@@ -68,8 +68,20 @@ nav {
     background-color: #E4DAE7;
     font-family: "Indie Flower", cursive, sans-serif;
     color: #73937E;
+    padding: 0 0.5em;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 25% 25% 25% 25%;
 }
 nav li {
     display: inline-block;
-    padding: 0 0.4em;
+    padding: 0 0.2em;
+    font-size: 1.2em;
+    border-right: #CEBBC9 0.1em solid;
+    flex: 1 1 auto;
+}
+nav li:last-of-type {
+    border: none;
 }
