@@ -151,7 +151,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 3. The footer encroaches far too much into the screen space on small landscape screens
 
-*Commit - **eb321d7** - removed font-size change from **style.css** line **398***
+*Commit - **[eb321d7](eb321d7)** - removed font-size change from **style.css** line **398***
 ***
 ## Deployment
 
