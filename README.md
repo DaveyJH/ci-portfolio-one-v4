@@ -133,7 +133,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ~~~
 *Putting the text in a div, as a child of the anchor, has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
 
-***index.html** - lines - **31 - 35***
+***index.html** - lines - **31 - 37***
 ~~~
     <li class="active">
         <a href="./index.html">
