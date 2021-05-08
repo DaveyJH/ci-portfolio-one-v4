@@ -214,6 +214,21 @@ and (max-height: 500px) {
         max-width: 50rem;
     }
 }
+/* screen height>1000px [header and footer increase] */
+@media screen and (min-height: 1000px) {
+    header {
+        font-size: 3rem;
+    }
+    footer {
+        font-size: 2rem;
+    }
+    .top img:first-of-type {
+        margin-top: max(calc(45vh - 44rem), 1rem);
+    }
+    main>div {
+        height: calc(100vh - 25.5rem);
+    }
+}
 /* screen width>1200px [desktops] */
 @media screen and (min-width: 1200px) {
     .desktop-home-image {
