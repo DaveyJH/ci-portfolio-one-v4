@@ -146,8 +146,12 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 2. The text in the overlay container overflows out the top on smalls screens
 ![Text Overflow](./readme-content/images/text-overflow.png)
+
+*Issue dealt with during modifying media queries. Commits between 14:00 - 15:20 on 08/05/2021. Consisted of some font-size changes and alteration to the max-height of the conatining div*
 ***
 3. The footer encroaches far too much into the screen space on small landscape screens
+
+*Commit - **eb321d7** - removed font-size change from **style.css** line **398***
 ***
 ## Deployment
 
