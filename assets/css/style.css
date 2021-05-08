@@ -106,10 +106,10 @@ nav li:hover:not(.active) {
 /* end of header */
 
 /* start of main */
-main {
+.home {
     min-height: 47.5rem;
 }
-main>div {
+.home>div {
     height: calc(100vh - 15.5rem);
     position: relative;
     min-height: 20.5rem;
@@ -236,7 +236,7 @@ and (max-height: 500px) {
     .top img:first-of-type {
         margin-top: max(calc(45vh - 44rem), 1rem);
     }
-    main>div {
+    .home>div {
         height: calc(100vh - 25.5rem);
     }
 }
@@ -259,7 +259,7 @@ and (max-height: 500px) {
         margin-bottom: 0;
         font-size: 1.15em;
     }
-    main>div {
+    .home>div {
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 3rem;
@@ -300,11 +300,11 @@ and (max-height: 500px) {
 /* screen width<1199px+landscape [tablets] */
 @media screen and (orientation: landscape)
 and (max-width: 1199px) {
-    main {
+    .home {
         padding: 2rem 0 1rem;
         min-height: 0;
     }
-    main>div {
+    .home>div {
         background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
         background-size: 100% auto;
         background-blend-mode: lighten;
@@ -357,7 +357,7 @@ and (min-height: 501px) {
         height: 100%;
         width: 25vw;
     }
-    main>div {
+    .home>div {
         background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
         background-size: 100% auto;
         background-blend-mode: lighten;
@@ -402,4 +402,9 @@ and (min-height: 501px) {
     footer {
         font-size: 1.4rem;
     }
+}
+
+
+#tester {
+    font-size: 2.5rem;
 }
