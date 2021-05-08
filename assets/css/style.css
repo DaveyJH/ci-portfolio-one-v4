@@ -200,8 +200,11 @@ and (max-height: 500px) {
 }
 /* screen width>500px re-align hero image [small tablets] */
 @media screen and (min-width: 500px) {
-    body {
+    body, nav {
         background-color: #DED5E0;
+    }
+    nav li {
+        background-color: #E4DAE7;
     }
     #overlay-text-container {
         box-shadow: 0.5rem 0.5rem 0.8rem #533C4D66, -0.5rem 0.5rem 0.8rem #533C4D66;
