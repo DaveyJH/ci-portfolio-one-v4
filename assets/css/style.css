@@ -275,4 +275,8 @@ and (max-height: 500px) {
         box-shadow: 0.5rem 0.5rem 0.8rem #533C4DAA, -0.5rem 0.5rem 0.8rem #533C4DAA, 0.5rem -0.5rem 0.8rem #533C4DAA, -0.5rem -0.5rem 0.8rem #533C4DAA;
         z-index: 2;
     }
+    footer ul {
+        margin: 0 auto;
+        max-width: min(90vw, 120rem);
+    }
 }
