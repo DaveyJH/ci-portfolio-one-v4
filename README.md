@@ -118,7 +118,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 
 ### Media
-
+- The photos being used in the site are currently from [Unsplash](https://unsplash.com) but will be updated with photographs from Katie's albums as soon as she has chosen them
 ### Acknowledgements
 
 - I received inspiration for this project from X

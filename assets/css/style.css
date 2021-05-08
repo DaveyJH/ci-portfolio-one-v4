@@ -237,6 +237,13 @@ and (max-height: 500px) {
         height: 100%;
         width: 25vw;
     }
+    main>div {
+        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
+        background-size: 100% auto;
+        background-blend-mode: lighten;
+        height: calc(50vw - 18rem);
+        top: 4rem;
+    }
     .line {
         display: flex;
         justify-content: space-between;
@@ -250,10 +257,12 @@ and (max-height: 500px) {
     }
     .top {
         margin-top: calc(14vh - 7rem);
+        position: relative;
+        top: -4rem;
     }
     .bottom {
         position: relative;
-        top: -10rem;
+        top: -14rem;
         padding: 0 23.75vw 10rem;
     }
     .desktop-home-image.middle {
