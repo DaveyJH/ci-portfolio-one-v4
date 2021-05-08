@@ -158,6 +158,12 @@ footer {
     color: #E4DAE7;
     text-align: right;
 }
+footer span {
+    padding-right: 0.5rem;
+}
+footer span i {
+    padding: 0 0.1rem;
+}
 footer.home-page {
     position: fixed;
     bottom: 0;
