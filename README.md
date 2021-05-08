@@ -12,7 +12,9 @@
     - [Features Left to Implement](#Features-Left-to-Implement)
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
-    - [Bugs](#Bugs)
+- [Bugs](#Bugs)
+    - [Current](#Current)
+    - [Resolved](#Resolved)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
     - [Content](#Content)
@@ -121,8 +123,11 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-### Bugs
+***
+## Bugs
+### Current
+- None found
+### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
 
 ***index.html** - lines - **31 - 33***
@@ -143,6 +148,7 @@ If this section grows too long, you may want to split it off into a separate fil
         </a>
     </li>
 ~~~
+*Commit - **[205302a](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/205302a3f1bc9c6717246cc717c2047d8c62d225#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R32-R57)***
 ***
 2. The text in the overlay container overflows out the top on smalls screens
 ![Text Overflow](./readme-content/images/text-overflow.png)
@@ -151,7 +157,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 3. The footer encroaches far too much into the screen space on small landscape screens
 
-*Commit - **[eb321d7](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/eb321d71353d6a7a6115923f4eea03477f38800a)** - removed font-size change from **style.css** line **398***
+*Commit - **[eb321d7](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/eb321d71353d6a7a6115923f4eea03477f38800a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeL398)** - removed font-size change from **style.css** line **398***
 ***
 ## Deployment
 
@@ -168,7 +174,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-
+- The idea to link to lines of code within github commits came from [Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)
 ### Media
 - The photos being used in the site are currently from [Unsplash](https://unsplash.com) but will be updated with photographs from Katie's albums as soon as she has chosen them
 ### Acknowledgements
