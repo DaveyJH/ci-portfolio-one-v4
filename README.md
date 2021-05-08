@@ -144,6 +144,11 @@ If this section grows too long, you may want to split it off into a separate fil
     </li>
 ~~~
 ***
+2. The text in the overlay container overflows out the top on smalls screens
+![Text Overflow](./readme-content/images/text-overflow.png)
+***
+3. The footer encroaches far too much into the screen space on small landscape screens
+***
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
