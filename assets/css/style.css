@@ -369,11 +369,11 @@ and (max-width: 1199px) {
         margin-left: 7%;
         margin-right: 7%;
         margin-bottom: 1rem;
-        font-size: 2rem;
+        font-size: 3.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        max-height: 8.4rem;
+        max-height: 15.4rem;
     }
     #overlay-text-container p:first-of-type {
         line-height: 1em;
