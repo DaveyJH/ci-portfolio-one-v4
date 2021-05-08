@@ -100,6 +100,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Bugs
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
+
+***index.html** - lines - **31 - 33***
+~~~
+    <li class="active">
+        <a href="./index.html">home</a>
+    </li>
+~~~
+*Putting the text in a div, as a child of the anchor, has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed color*
+
+***index.html** - lines - **31 - 35***
+~~~
+    <li class="active">
+        <a href="./index.html">
+            <div>
+                home
+            </div>
+        </a>
+    </li>
+~~~
 ***
 ## Deployment
 
