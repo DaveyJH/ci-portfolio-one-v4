@@ -57,6 +57,8 @@ A neutral color scheme created using [coolors.co](https://coolors.co)
 
 The scheme applied to the home page
 ![Colours Applied](./readme-content/images/mob-col-1.png)
+
+*Some colors used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co) or [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)*
 ***
 ## Features
 
@@ -64,13 +66,40 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 <!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
+1. The header will be visible on all pages and have a maintained style throughout
+>*"As a visitor ... **I would like to be able to navigate easily**"*
+- *the nav menu is accessible at the bottom of the header*
+***
+2. The design is made with mobile first in mind
+>*"As a visitor ... **I may use a number of different devices**"*
+- *the media queries in the css file are done in a way to keep the aesthetics of the site looking OK across the majority of screen sizes*
+***
+3. The header content is brief and informative and contains a couple of images
+>*"As a first time visitor ... **I want to know what this site is about**"*
+- *the text content in the header indicates exactly what this site is about. The images are relevant and one intends to provide a positive emotive response*
+***
+4. The home page has a large image showing animal photography
+>*"As a first time visitor...**I want to know what this site is about**"*
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+>*"As a returning visitor...**I really do like the photographs**"*
+- *the hero image shows off the type of photography included in the website, on certain devices, a few images are displayed for a little variety*
+***
+5. The footer element has accessible icons which link to social media platforms
+>*"As a returning visitor...**some social media links**"*
+
+>*"As an intersted person ... **connect with her via social media**"*
+- *the social media links will be available on all pages. On all devices, the home page features a fixed footer, which is visible as soon as the page loads no matter the device type*
+***
+The footer element contains a link to my github and linked in profiles
+>BONUS
+- *the design of the footer allows for discrete links to me, should any visitor wish to know more about the sites creator*
+***
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
+    - the nav bar takes up valuble screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs
 ***
 ## Technologies Used
 
