@@ -110,6 +110,7 @@ nav li:hover:not(.active) {
 main>div {
     height: calc(100vh - 15.5rem);
     position: relative;
+    min-height: 20.5rem;
 }
 .desktop-home-image {
     visibility: hidden;
@@ -122,7 +123,7 @@ main>div {
 }
 #overlay-text-container {
     background-color:#D2C1D688;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     width: 85%;
     margin: 0 auto;
@@ -137,13 +138,12 @@ main>div {
 #overlay-text-container p:first-of-type {
     font-family: "caveat", cursive, sans-serif;
     font-weight: 700;
-    font-size: 2em;
     padding-bottom: 0.2em;
     letter-spacing: 0.025em;
 }
 #overlay-text-container p:last-of-type {
     font-family: "Dancing Script", "Trebuchet MS", cursive, sans-serif;
-    font-size: 1.25em;
+    font-size: 0.625em;
     padding-bottom: 0.4em;
     color: #6E333D;
     font-weight: 600;
@@ -192,7 +192,8 @@ footer li:hover {
 }
 /* screen height<540px = text-overlay smaller font */
 @media screen and (max-width: 340px)
-and (max-height: 540px) {
+and (max-height: 540px)
+and (orientation: portrait) {
     #overlay-text-container p:nth-child(1) {
         font-size: 1.5em;
     }
@@ -298,13 +299,6 @@ and (max-height: 500px) {
 }
 
 /* landscape screens */
-/* screen width<580px smaller header font-size to prevent double line */
-@media screen and (orientation: landscape)
-and (max-width: 580px) {
-    #title-container{
-        font-size: 1.4rem;
-    } 
-}
 /* screen height<580px+landscape [small screens] */
 @media screen and (orientation: landscape)
 and (max-height: 500px) {
@@ -330,6 +324,7 @@ and (max-height: 500px) {
     main>div {
         display: flex;
         flex-direction: row-reverse;
+        margin-bottom: 3rem;
     }
     #overlay-text-container {
         align-self: center;
@@ -339,7 +334,6 @@ and (max-height: 500px) {
         margin-left: 7%;
         margin-right: 7%;
         margin-bottom: 1rem;
-        font-size: 1.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -364,7 +358,13 @@ and (max-height: 500px) {
 /* screen width 501<1199px+landscape [tablets] */
 @media screen and (orientation: landscape)
 and (max-width: 1199px) {
+    main {
+        padding: 2rem 0 1rem;
+    }
     main>div {
+        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
+        background-size: 100% auto;
+        background-blend-mode: lighten;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -380,14 +380,11 @@ and (max-width: 1199px) {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        max-height: 14.4rem;
+        max-height: 8.4rem;
     }
     #overlay-text-container p:first-of-type {
         line-height: 1em;
         padding-bottom: 0.6em;
-    }
-    #overlay-text-container p:last-of-type {
-        padding-bottom: 1em;
     }
     #solo-image-container {
         overflow: hidden;
@@ -397,15 +394,14 @@ and (max-width: 1199px) {
         position: relative;
         bottom: 0;
     }
-    main {
-        padding: 2rem 0 1rem;
-    }
-    main>div {
-        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
-        background-size: 100% auto;
-        background-blend-mode: lighten;
-    }
     footer ul {
         font-size: 3.5rem;
+    }
+}
+/* screen width<580px smaller header font-size to prevent double line */
+@media screen and (orientation: landscape)
+and (max-width: 580px) {
+    #title-container{
+        font-size: 1.4rem;
     }
 }
