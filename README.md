@@ -151,7 +151,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 3. The footer encroaches far too much into the screen space on small landscape screens
 
-*Commit - **[eb321d7](eb321d71353d6a7a6115923f4eea03477f38800a)** - removed font-size change from **style.css** line **398***
+*Commit - **[eb321d7](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/eb321d71353d6a7a6115923f4eea03477f38800a)** - removed font-size change from **style.css** line **398***
 ***
 ## Deployment
 
