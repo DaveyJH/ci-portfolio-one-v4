@@ -191,14 +191,6 @@ footer li:hover {
         font-size: 1.7rem;
     }
 }
-/* screen height<540px = text-overlay smaller font */
-@media screen and (max-width: 340px)
-and (max-height: 540px)
-and (orientation: portrait) {
-    #overlay-text-container p:nth-child(1) {
-        font-size: 1.5em;
-    }
-}
 /* screen height<500px = text-overlay moves infront of image */
 @media screen and (max-width: 340px)
 and (max-height: 500px) {   
