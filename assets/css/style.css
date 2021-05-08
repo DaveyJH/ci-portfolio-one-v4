@@ -282,14 +282,14 @@ and (max-height: 500px) {
 }
 
 /* landscape screens */
-/* smaller header font-size to prevent double line */
+/* screen width<580px smaller header font-size to prevent double line */
 @media screen and (orientation: landscape)
 and (max-width: 580px) {
     #title-container{
         font-size: 1.4rem;
     } 
 }
-/* landscape for small screens */
+/* screen height<580px+landscape [small screens] */
 @media screen and (orientation: landscape)
 and (max-height: 500px) {
     #title-container {
@@ -343,5 +343,53 @@ and (max-height: 500px) {
     #solo-image-container img {
         position: relative;
         top: -10vw;
+    }
+}
+/* screen width 501<1199px+landscape [tablets] */
+@media screen and (orientation: landscape)
+and (max-width: 1199px) {
+    main>div {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #overlay-text-container {
+        align-self: center;
+        top: 8%;
+        padding: 2rem;
+        width: 36%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-height: 14.4rem;
+    }
+    #overlay-text-container p:first-of-type {
+        line-height: 1em;
+        padding-bottom: 0.6em;
+    }
+    #overlay-text-container p:last-of-type {
+        padding-bottom: 1em;
+    }
+    #solo-image-container {
+        overflow: hidden;
+        flex: 0 0 50%;
+    }
+    #solo-image-container img {
+        position: relative;
+        bottom: 0;
+    }
+    main {
+        padding: 2rem 0 1rem;
+    }
+    main>div {
+        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
+        background-size: 100% auto;
+        background-blend-mode: lighten;
+    }
+    footer ul {
+        font-size: 3.5rem;
     }
 }
