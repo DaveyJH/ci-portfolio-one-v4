@@ -241,10 +241,14 @@ and (max-height: 500px) {
         top: -10rem;
         padding: 0 23.75vw 10rem;
     }
+    .desktop-home-image.middle {
+        z-index: 1;
+    }
     #overlay-text-container {
         top: calc(-50vw + 14rem);
         font-size: 3rem;
         max-width: 80rem;
         box-shadow: 0.5rem 0.5rem 0.8rem #533C4DAA, -0.5rem 0.5rem 0.8rem #533C4DAA, 0.5rem -0.5rem 0.8rem #533C4DAA, -0.5rem -0.5rem 0.8rem #533C4DAA;
+        z-index: 2;
     }
 }
