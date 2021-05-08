@@ -43,7 +43,7 @@ Some example user stories which will effect the design
 - *"As a first time visitor, I want to know what this site is about. I may use a number of different devices (mobile/tablet etc.) to view the site. I would like to be able to navigate easily"*
 - *"As a returning visitor, I want to take a look at some different galleries and possibly some social media links. I am interested in learning a little more about Katie, but I really do like the photographs"*
 - *"As an interested person, I would like to see some of Katie's work. I want to be able to contact Katie, perhaps connect with her via social media"*
-
+***
 ### Initial Concept
 With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind.
 #### Wireframes
@@ -58,17 +58,15 @@ A neutral color scheme created using [coolors.co](https://coolors.co)
 The scheme applied to the home page
 ![Colours Applied](./readme-content/images/mob-col-1.png)
 
-*Some colors used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co) or [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)*
+*Some colours used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co) or [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)*
 ***
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
 <!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
 1. The header will be visible on all pages and have a maintained style throughout
 >*"As a visitor ... **I would like to be able to navigate easily**"*
-- *the nav menu is accessible at the bottom of the header*
+- *the nav menu is accessible at the bottom of the header and sticks to the top of the page if scrolled*
 ***
 2. The design is made with mobile first in mind
 >*"As a visitor ... **I may use a number of different devices**"*
@@ -94,19 +92,16 @@ The footer element contains a link to my github and linked in profiles
 >BONUS
 - *the design of the footer allows for discrete links to me, should any visitor wish to know more about the sites creator*
 ***
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
-    - the nav bar takes up valuble screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs
+    - *the nav bar takes up valuble screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs*
 ***
 ## Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
 - [Font Awesome](https://fontawesome.com/)
     - The project uses icons from Font Awesome version 5
-
+***
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -136,7 +131,7 @@ If this section grows too long, you may want to split it off into a separate fil
         <a href="./index.html">home</a>
     </li>
 ~~~
-*Putting the text in a div, as a child of the anchor, has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed color*
+*Putting the text in a div, as a child of the anchor, has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
 
 ***index.html** - lines - **31 - 35***
 ~~~
