@@ -7,6 +7,8 @@
     - [Wireframes](#Wireframes)
         - [All Wireframes - Separate Document](./readme-content/wireframes.md)
     - [Colour Scheme](#Colour-Scheme)
+    - [Typography](#Typography)
+    - [Imagery](#Imagery)
 - [Features](#Features)
     - [Existing Features](#Existing-Features)
     - [Features Left to Implement](#Features-Left-to-Implement)
@@ -20,10 +22,11 @@
     - [Content](#Content)
     - [Media](#Media)
     - [Acknowledgements](#Acknowledgements)
-- [Downloads](#Downloads)
 ***
 ## Objective
 In this project I intend to provide a portfolio style website for my sister's wildlife photography.  The main objective is to demonstrate competency in HTML and CSS.  I hope to provide an emotive, static front end application which is easy to navigate and has a clear purpose.
+
+**The needs in this project are not genuine and are made purely for the purpose of completing my Code Institute project**
 ***
 ## Brief
 ### **Katie Horrocks - Wildlife Photography**
@@ -36,7 +39,7 @@ The goal of this website is to promote Katie Horrocks' photography.  The client 
 
 Katie does not work professionally as a photographer, the site is to serve as a platform for displaying her pictures and allowing interested parties to contact her for general purposes.
 
-*She may, at a later date, add a blog to the site so that element should be considered during the design of the application.*
+*She may, at a later date, add a blog to the site so that element should be considered during the design of the application*
 ***
 ## UX &#8722; User Experience Design
 ### User Requirements
@@ -47,11 +50,12 @@ Some example user stories which will effect the design
 - *"As an interested person, I would like to see some of Katie's work. I want to be able to contact Katie, perhaps connect with her via social media"*
 ***
 ### Initial Concept
-With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind.
+With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind
 #### Wireframes
 <!-- wireframe images and link to more -->
 ![Home Page Wireframe](./readme-content/images/mob-home.png)
 *See [here](./readme-content/wireframes.md#tablet) for other device types*
+***
 #### Colour Scheme
 A neutral color scheme created using [coolors.co](https://coolors.co)
 
@@ -60,7 +64,19 @@ A neutral color scheme created using [coolors.co](https://coolors.co)
 The scheme applied to the home page
 ![Colours Applied](./readme-content/images/mob-col-1.png)
 
-*Some colours used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co) or [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)*
+*Some colours used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co)*
+***
+#### Typography
+The website will not feature a great deal of text. The fonts are imported into the CSS file from [Google Fonts](https://fonts.google.com/)
+- **Caveat** has been chosen as the main font for the title text. It is a friendly font which gives a more personal appearance. The fallback family of **cursive** maintains the personal appearance
+- **Dancing Script** has been chosen for the 'tag line' font. The font is more calligraphic and exudes a stylish tone, relatable to the photographic content of the website. The fallback family of **cursive** means the overall style will be maintained in the event some fonts fail to render
+- **Indie Flower** has been chosen as the nav menu and secondary page's title font. It maintains the welcoming mood of the site, hoping to maintain positive user experiences. As with the other larger text elements, the fallback font remains as **cursive**
+- **Raleway** has been chosen as the font for any areas featuring a higher volume of text. The font is more standard but maintains a sense of personal feel with its rounded styling and light weight.  A fallback font of **Trebuchet MS** is used as it maintains the light weight appearance. A fallback family of **sans-serif** is used to maintain a contrast to the fallback of the other text elements in the website
+***
+#### Imagery
+As the main feature of the website, the imagery will be from Katie's personal collections.  Many of the images are large files, and so will be compressed for quicker load times. The image in the header should be friendly and not too complex. The content images will be arranged into categories to allow a number of galleries to be presented.
+
+The images will be compressed using *[Compressor.io](https://compressor.io/)*
 ***
 ## Features
  
@@ -101,8 +117,21 @@ The footer element contains a link to my github and linked in profiles
 ## Technologies Used
 
 <!-- In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used. -->
-- [Font Awesome](https://fontawesome.com/)
+- *[Balsamiq](https://balsamiq.com/)*
+    - Balsamiq was used to create [wireframes](./readme-content/wireframes.md) for the project
+- *[Compressor.io](https://compressor.io/)*
+    - All images within the project have been processed through their free compression service
+- *[Font Awesome](https://fontawesome.com/)*
     - The project uses icons from Font Awesome version 5
+- *[Coolors.co](https://coolors.co)*
+    - The color scheme, and subsequent shades and tones, were generated via this application
+- *[Visual Studio Code](https://code.visualstudio.com/)*
+    - I have used this IDE as I had a very limited experience with an older version. The extensions available have allowed me to customize my workspace and become more efficient
+        - Special mention to *[YuichiNukiyama](https://github.com/YuichiNukiyama)* for their *[Preview on Web Server](https://github.com/YuichiNukiyama/vscode-preview-server)* extension as this allowed a very quick visual representation of changes made
+- *[Chrome DevTools](https://developer.chrome.com/docs/devtools/)*
+    - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
+- *[Google Fonts](https://fonts.google.com/)*
+    - The fonts used in the website are imported from Google Fonts
 ***
 ## Testing
 
@@ -127,6 +156,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Bugs
 ### Current
 - None found
+***
 ### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
 
@@ -174,11 +204,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The idea to link to lines of code within github commits came from [Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)
+- The idea to link to lines of code within github commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
 ### Media
-- The photos being used in the site are currently from [Unsplash](https://unsplash.com) but will be updated with photographs from Katie's albums as soon as she has chosen them
+- The photos being used in the site are currently from *[Unsplash](https://unsplash.com)* but will be updated with photographs from Katie's albums as soon as she has chosen them
 ### Acknowledgements
 
 - I received inspiration for this project from X
 ***
-## Downloads
