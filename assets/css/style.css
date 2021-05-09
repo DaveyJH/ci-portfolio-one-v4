@@ -1,6 +1,4 @@
-/* google fonts
-!"Dancing Script" + "Caveat" = 400-700weight no italics
-!"Indie Flower" = ONLY 400reg  */
+/* google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Dancing+Script&family=Work+Sans&display=swap');
 
 /* general */
@@ -48,7 +46,7 @@ header i {
 }
 h1 {
     color: #B05162;
-    font-family: "caveat", cursive, sans-serif;
+    font-family: "caveat", cursive;
     text-transform: capitalize;
     text-decoration: underline;
     letter-spacing: 0.03em;
@@ -56,7 +54,7 @@ h1 {
 }
 h2 {
     color: #49736B;
-    font-family: "Dancing Script", "Trebuchet MS", cursive, sans-serif;
+    font-family: "Dancing Script", cursive;
     font-size: 1.2em;
     margin-top: -0.25em;
     margin-bottom: 0.25em;
@@ -74,7 +72,7 @@ h2 {
 /* nav section */
 nav {
     background-color: #E4DAE7;
-    font-family: "Indie Flower", cursive, sans-serif;
+    font-family: "Indie Flower", cursive;
     color: #73937E;
     padding: 0 0.5em;
 }
@@ -142,7 +140,7 @@ nav li:hover:not(.active) {
     letter-spacing: 0.025em;
 }
 #overlay-text-container p:last-of-type {
-    font-family: "Dancing Script", "Trebuchet MS", cursive, sans-serif;
+    font-family: "Dancing Script", cursive;
     font-size: 0.625em;
     padding-bottom: 0.4em;
     color: #6E333D;
