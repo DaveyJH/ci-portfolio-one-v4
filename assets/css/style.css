@@ -1,5 +1,5 @@
 /* google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Dancing+Script&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Dancing+Script&family=Raleway&display=swap');
 
 /* general */
 html {
@@ -16,7 +16,7 @@ a {
 }
 body {
     background-color: #E4DAE7;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 li {
     list-style-type: none;
