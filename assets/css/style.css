@@ -163,7 +163,7 @@ footer span {
 footer span i {
     padding: 0 0.1rem;
 }
-footer.home-page {
+footer.home-page-sticky {
     position: fixed;
     bottom: 0;
 }
