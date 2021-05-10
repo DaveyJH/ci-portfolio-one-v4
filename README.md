@@ -82,33 +82,41 @@ The images will be compressed using *[Compressor.io](https://compressor.io/)*
  
 ### Existing Features
 <!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
-1. The header will be visible on all pages and have a maintained style throughout
->*"As a visitor ... **I would like to be able to navigate easily**"*
-- *the nav menu is accessible at the bottom of the header and sticks to the top of the page if scrolled*
-***
-2. The design is made with mobile first in mind
+1. The design is made with mobile first in mind
 >*"As a visitor ... **I may use a number of different devices**"*
 - *the media queries in the css file are done in a way to keep the aesthetics of the site looking OK across the majority of screen sizes*
+***
+2. The header will be visible on all pages and have a maintained style throughout
+>*"As a visitor ... **I would like to be able to navigate easily**"*
+- *the nav menu is accessible at the bottom of the header and sticks to the top of the page if scrolled*
 ***
 3. The header content is brief and informative and contains a couple of images
 >*"As a first time visitor ... **I want to know what this site is about**"*
 - *the text content in the header indicates exactly what this site is about. The images are relevant and one intends to provide a positive emotive response*
+
+    ![Header Snip](./readme-content/images/header-snip.png)
 ***
 4. The home page has a large image showing animal photography
 >*"As a first time visitor...**I want to know what this site is about**"*
 
 >*"As a returning visitor...**I really do like the photographs**"*
 - *the hero image shows off the type of photography included in the website, on certain devices, a few images are displayed for a little variety*
+
+    ![Home Image Snip](./readme-content/images/home-img.png)![Desktop Images](./readme-content/images/desktop-imgs.png)
 ***
 5. The footer element has accessible icons which link to social media platforms
 >*"As a returning visitor...**some social media links**"*
 
 >*"As an intersted person ... **connect with her via social media**"*
 - *the social media links will be available on all pages. On all devices, the home page features a fixed footer, which is visible as soon as the page loads no matter the device type*
+
+    ![Footer Snip](./readme-content/images/footer-snip.png)
 ***
 The footer element contains a link to my github and linked in profiles
 >BONUS
-- *the design of the footer allows for discrete links to me, should any visitor wish to know more about the sites creator*
+- *the design of the footer allows for discrete links to me, should any visitor wish to know more about the sites creator (yellow border imposed on screenshot for demonstration purposes)*
+
+    ![Footer Highlight](./readme-content/images/footer-highlight.png)
 ***
 ### Features Left to Implement
 1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
