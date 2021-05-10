@@ -34,7 +34,7 @@ header {
 }
 /* pink section */
 #header-pink {
-    background-color: #E3A2A0;
+    background-color: #ECC2C0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -45,7 +45,7 @@ header i {
     font-size: 1.5em;
 }
 h1 {
-    color: #B05162;
+    color: #7F3946;
     font-family: "caveat", cursive;
     text-transform: capitalize;
     text-decoration: underline;
@@ -53,7 +53,7 @@ h1 {
     font-size: 1.9em;
 }
 h2 {
-    color: #49736B;
+    color: #603F83;
     font-family: "Dancing Script", cursive;
     font-size: 1.2em;
     margin-top: -0.25em;
@@ -73,7 +73,7 @@ h2 {
 nav {
     background-color: #E4DAE7;
     font-family: "Indie Flower", cursive;
-    color: #73937E;
+    color: #603F83;
     padding: 0 0.5em;
 }
 nav ul {
@@ -91,14 +91,14 @@ nav li {
 }
 /* active tab coloring */
 .active {
-    background-color: #E3A2A0;
-    color: #49736B;
+    background-color: #ECC2C0;
+    color: #3B2650;
 }
 /* hover coloring */
 nav li:hover:not(.active) {
     background-color: #CEBBC9;
     font-weight: 600;
-    color: #49736B;
+    color: #3B2650;
 }
 /* end of nav section */
 /* end of header */
@@ -152,9 +152,9 @@ nav li:hover:not(.active) {
 /* start of footer */
 footer {
     width: 100%;
-    background-color: #E3A2A0;
+    background-color: #ECC2C0;
     font-size: 1rem;
-    color: #E4DAE7;
+    color: #9875BD;
     text-align: right;
 }
 footer span {
@@ -175,10 +175,10 @@ footer ul {
     justify-content: space-around;
     padding: 0.4em 1em 0;
     box-sizing: border-box;
-    color: #73937E;
+    color: #603F83;
 }
 footer li:hover {
-    color: #49736B;
+    color: #3B2650;
     transform: scale(1.3);
 }
 /* end of footer */
@@ -389,7 +389,7 @@ and (min-height: 501px) {
     }
     #overlay-text-container {
         top: calc(-50vw + 14rem);
-        font-size: 3rem;
+        font-size: 5rem;
         max-width: 80rem;
         box-shadow: 0.5rem 0.5rem 0.8rem #533C4DAA, -0.5rem 0.5rem 0.8rem #533C4DAA, 0.5rem -0.5rem 0.8rem #533C4DAA, -0.5rem -0.5rem 0.8rem #533C4DAA;
         z-index: 2;

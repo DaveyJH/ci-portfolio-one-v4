@@ -65,6 +65,11 @@ The scheme applied to the home page
 ![Colours Applied](./readme-content/images/mob-col-1.png)
 
 *Some colours used in the final project may be shades of those listed, generated using [coolors.co](https://coolors.co)*
+
+**I had not run the colour combinations through a contrast checker before commencing the project.**
+![Revised Colour Scheme](./readme-content/images/khp-color-1.2.png)
+Unfortunately the colours chosen gave a poor result unless taken to the extremes of light and dark. I have generated a new colour theme, again with some shades and tones to be used. The main changes are the lightening of the header and footer, and the font colour within those elements has been changed to purple
+![Purple Font Change](./readme-content/images/header-purple-font.png)
 ***
 #### Typography
 The website will not feature a great deal of text. The fonts are imported into the CSS file from [Google Fonts](https://fonts.google.com/)
