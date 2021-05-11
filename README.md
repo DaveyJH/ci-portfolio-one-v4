@@ -53,7 +53,16 @@ Some example user stories which will affect the design
 With photographic images featuring as a really important aspect of the site, I  hope to keep the design fairly free from other distractions. I anticipate using a fairly neutral colour scheme as I feel this will allow the content images to stand out more from the design aspects. The application is to be designed with 'mobile first' in mind
 #### Wireframes
 <!-- wireframe images and link to more -->
+Home
 ![Home Page Wireframe](./readme-content/images/mob-home.png)
+Gallery Selection
+![Gallery Selection Wireframe](./readme-content/images/mob-gallery-select.png)
+Gallery Page
+![Gallery Page Wireframe](./readme-content/images/mob-gallery.png)
+About
+![About Wireframe](./readme-content/images/mob-about.png)
+Contact
+![Contact Wireframe](./readme-content/images/mob-contact.png)
 *See [here](./readme-content/wireframes.md#tablet) for other device types*
 ***
 #### Colour Scheme
