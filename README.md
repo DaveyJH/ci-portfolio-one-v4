@@ -169,7 +169,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 ## Bugs
 ### Current
-- None found
+- **Some screen sizes cause the lower section of overlay text to be obscured by the footer. I suspect I need to look at the height of the main element and possibly re-work the position of the text**
 ***
 ### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
