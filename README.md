@@ -178,7 +178,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 ## Bugs
 ### Current
-- **Some screen sizes cause the lower section of overlay text to be obscured by the footer. I suspect I need to look at the height of the main element and possibly re-work the position of the text**
 ***
 ### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
@@ -211,6 +210,12 @@ If this section grows too long, you may want to split it off into a separate fil
 3. The footer encroaches far too much into the screen space on small landscape screens
 
 *Commit - **[eb321d7](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/eb321d71353d6a7a6115923f4eea03477f38800a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeL398)** - removed font-size change from **style.css** line **398***
+***
+4. Some screen sizes cause the lower section of overlay text to be obscured by the footer
+
+*Commit - **[898520a](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/898520a81287077a1e62116bc20e3afc3a0f3bfd)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed
+
+Commit - **[18f7806](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/1eca6f76db30b308c8c1517ddd90acb3a06858ea#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
 ***
 ## Deployment
 
