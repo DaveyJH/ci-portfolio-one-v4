@@ -359,6 +359,9 @@ and (min-height: 501px) {
         height: 100%;
         width: 25vw;
     }
+    .home {
+        min-height: 0;
+    }
     .home>div {
         background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
         background-size: 100% auto;
