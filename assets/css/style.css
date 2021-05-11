@@ -207,6 +207,47 @@ footer li:hover {
 }
 /* end of about page main */
 
+/* start of gallery select page */
+.gallery-select {
+    padding: 3.5rem;
+}
+.gallery-select .container {
+    height: 20rem;
+    padding: 2rem 0;
+}
+.gallery-select .image {
+    height: 100%;
+    background-color: #ECC2C0;
+    background-repeat: no-repeat;
+}
+.urban .image {
+    background-image: url(../images/fox.jpg);
+    background-position: -4rem -2rem;
+}
+.birds .image {
+    background-image: url(../images/birds.jpg);
+}
+.big-cats .image {
+    background-image: url(../images/big-cat.jpg);
+    background-position: -6rem 0;
+}
+.gallery-select p {
+    position: relative;
+    top: 8.5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #3B2650;
+    background-color: #E4DAE755;
+    text-shadow: #E4DAE7 0.2rem 0.2rem 0.5rem, #000 -0.2rem 0.2rem 0.5rem;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    width: 15rem;
+    left: calc(50% - 7.5rem);
+    border-radius: 0.75rem;
+}
+
+
 /* media queries */
 /* portrait */
 /* screen width<340px [galaxy fold, iphone4, small mobiles] */
@@ -431,9 +472,4 @@ and (min-height: 501px) {
     footer {
         font-size: 1.4rem;
     }
-}
-
-
-#tester {
-    font-size: 2.5rem;
 }
