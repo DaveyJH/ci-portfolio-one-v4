@@ -105,7 +105,7 @@ nav li:hover:not(.active) {
 
 /* start of main */
 .home {
-    min-height: 47.5rem;
+    min-height: 135.2vw
 }
 .home>div {
     height: calc(100vh - 15.5rem);
@@ -219,6 +219,9 @@ and (max-height: 500px) {
 }
 /* screen width>700 move overlay-text downward below image [larger tablets] */
 @media screen and (min-width: 700px) {
+    .home {
+        min-height: 89rem;
+    }
     #overlay-text-container {
         top: 2rem;
         max-width: 50rem;
