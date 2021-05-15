@@ -28,7 +28,7 @@ p, h1, h2, span {
 /* header start */
 header {
     color: #DB8784;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     position: -webkit-sticky;
     position: sticky;
@@ -107,13 +107,9 @@ nav li:hover:not(.active) {
 /* end of header */
 
 /* start of home page main */
-.home {
-    min-height: 135.2vw
-}
 .home>section {
-    height: calc(100vh - 15.5rem);
+    height: calc(100vh - 10rem);
     position: relative;
-    min-height: 20.5rem;
 }
 .desktop-home-image {
     visibility: hidden;
@@ -131,7 +127,7 @@ nav li:hover:not(.active) {
     width: 85%;
     margin: 0 auto;
     position: relative;
-    top: -10rem;
+    top: -11.5rem;
     border-radius: .8rem;
     color: #9B4655;
     text-shadow: .1em .1em .15em #D2C1C6, -.1em -.1em .15em #D2C1C6;
@@ -139,16 +135,17 @@ nav li:hover:not(.active) {
     max-width: 40rem;
     font-family: "caveat", cursive, sans-serif;
     font-weight: 700;
-    padding-bottom: .2em;
+    padding: .2em .4em .4em;
     letter-spacing: .025em;
+    box-sizing: border-box;
 }
 .home h2 {
     font-size: 4rem;
+    padding-bottom: 1rem;
 }
 #overlay-text-container p:last-of-type {
     font-family: "Dancing Script", cursive;
     font-size: .625em;
-    padding-bottom: .4em;
     color: #6E333D;
     font-weight: 600;
     letter-spacing: initial;
@@ -332,17 +329,14 @@ input[type=submit]:focus {
 
 /* media queries */
 /* portrait */
-/* screen width<340px [galaxy fold, iphone4, small mobiles] */
-@media screen and (max-width: 340px) {
+/* screen width>340px - increase header text size */
+@media screen and (min-width: 340px) {
     header {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
-}
-/* screen height<500px = text-overlay moves infront of image */
-@media screen and (max-width: 340px)
-and (max-height: 500px) {   
-    #overlay-text-container {
-        top: -20rem;
+    .home>section {
+        height: calc(100vh - 12rem);
+        position: relative;
     }
 }
 /* screen width>500px re-align hero image [small tablets] */
