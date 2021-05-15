@@ -22,6 +22,7 @@
     - [Content](#Content)
     - [Media](#Media)
     - [Acknowledgements](#Acknowledgements)
+- [Personal Development](#Personal-Development)
 ***
 ## Objective
 In this project I intend to provide a portfolio style website for my sister's wildlife photography.  The main objective is to demonstrate competency in HTML and CSS.  I hope to provide an emotive, static front end application which is easy to navigate and has a clear purpose.
@@ -126,7 +127,7 @@ The images will be compressed using *[Compressor.io](https://compressor.io/)*
 
     ![Footer Snip](./readme-content/images/footer-snip.png)
 ***
-The footer element contains a link to my github and linked in profiles
+The footer element contains a link to my GitHub and linked in profiles
 >BONUS
 - *the design of the footer allows for discrete links to me, should any visitors wish to know more about the site's creator (yellow border imposed on screenshot for demonstration purposes)*
 
@@ -232,10 +233,49 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The idea to link to lines of code within github commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
+- The idea to link to lines of code within GitHub commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
 ### Media
 - The photos being used in the site are currently from *[Unsplash](https://unsplash.com)* but will be updated with photographs from Katie's albums as soon as she has chosen them
 ### Acknowledgements
 
 - I received inspiration for this project from X
 ***
+### Personal Development
+
+Having had a session with my Code Institute mentor, I went about modifying the commit messages on most commits to include a reference to the document which had been worked on. I used the following method to modify the commit messages through git:
+
+*In the powershell terminal within VSCode, with the repository as my current working directory, I entered the following:*
+
+```
+git rebase -i HEAD~95
+```
+*This generated a text document within my editor. I changed "pick" to "r" on all commits which needed document references adding*
+
+*(snippet from document)*
+```
+pick 4696f63 DOC+ temporary gallery-select images
+r 34b9b76 ADD images + basic styling to gallery-select
+r 7e42d60 REM <a> from header. stop cursor change on text
+r 6882570 ADD basic form structure
+r 04e17e6 ADD placeholders + change "enquiry" to textarea
+pick f45cb8e ADD styling to form [contact.html]
+```
+*This allowed me to edit the commit messages individually in my editor to include the document reference*
+```
+ADD placeholders + change "enquiry" to textarea [contact.html]
+```
+*Once the files were edited, saved and closed, I proceeded to force push the commits back into the GitHub repository*
+```
+git push --force
+```
+*This allowed the commit messages to be changed but changed the commit times of the messages to the time of the edit*
+
+I thought this was a big problem and spent a while researching how to modify commit times. I tested the time change on one commit, did something wrong in the process and duplicated the entire commit history (bar the initial commit) with new SHAs, resulting in 191 commits. I believe I merged the modified commit (with original commit time) with the original branch, causing a new 'history' of commits which were duplicates of the existing ones. I then ran another rebase of the entire commit history and was able to identify the unwanted commit messages, delete the lines from the generated todo file and, once saved and forced back to GitHub, the commit duplicates ceased to be present
+
+This process has highlighted the danger of rebase operations within a repository. Although I may occasionally rebase and edit a typo in an un-pushed commit, I think in the future, especially with pushed commits, I would prefer to make changes in a new commit and document the changes very well in a readme file
+
+In the case of having an error within the commit message format for a while, I should have continued with a new format and made reference to the error in this document. The note would have been as follows:
+
+*I have made an error with the first 95 commit messages within this repo. The commit messages do not indicate which documents have been worked on, leading to a more time consuming analysis of the commit history. I will endeavour to maintain a commit message structure which allows quick identification of the modified documents within the first line of the commit message [**document name here**]*
+
+In future, if collaborating with others, I will clarify the format/content of commit messages to ensure a consistent method is applied throughout the project. I will avoid using the rebase facility of GitHub as much as possible
