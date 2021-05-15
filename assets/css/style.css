@@ -257,6 +257,7 @@ footer li:hover {
     font-size: 2.2rem;
     font-weight: 600;
     color: #3B2650;
+    height: calc(100vh - 12.4rem);
 }
 .contact form {
     margin: 2rem auto;
@@ -309,6 +310,23 @@ label[for=text-box] {
     border-radius: 0.3rem;
     margin-bottom: 2.5rem;
 }
+input[type=submit] {
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #9875BD;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input[type=submit]:hover {
+    border-color :#603F83;
+    color: #fff;
+    background-color: #603F83;
+}
+input[type=submit]:focus {
+    box-shadow: 0 0 0 0.4rem #603F83;
+}
+
 /* media queries */
 /* portrait */
 /* screen width<340px [galaxy fold, iphone4, small mobiles] */
