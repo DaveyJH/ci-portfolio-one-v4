@@ -201,7 +201,7 @@ If this section grows too long, you may want to split it off into a separate fil
         </a>
     </li>
 ~~~
-*Commit - **[205302a](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/205302a3f1bc9c6717246cc717c2047d8c62d225#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R32-R57)***
+*Commit - **[9ed8b54](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/9ed8b5488bbbd882e5775e213c983fddad779b27#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R32-R57)***
 ***
 2. The text in the overlay container overflows out the top on smalls screens
 ![Text Overflow](./readme-content/images/text-overflow.png)
@@ -210,13 +210,13 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 3. The footer encroaches far too much into the screen space on small landscape screens
 
-*Commit - **[eb321d7](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/eb321d71353d6a7a6115923f4eea03477f38800a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeL398)** - removed font-size change from **style.css** line **398***
+*Commit - **[9831174](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/98311749f1d119f4469e0e60d142e9734ed9b789#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeL398)** - removed font-size change from **style.css** line **398***
 ***
 4. Some screen sizes cause the lower section of overlay text to be obscured by the footer
 
-*Commit - **[898520a](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/898520a81287077a1e62116bc20e3afc3a0f3bfd)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed
+*Commit - **[fb5cc65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/fb5cc65e3a87240f06642a4cad651c5f7c30349b)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed
 
-Commit - **[18f7806](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/1eca6f76db30b308c8c1517ddd90acb3a06858ea#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
+Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe816bf42ac0e03b51c5331cc896e74dde2ac9#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
 ***
 ## Deployment
 
