@@ -117,7 +117,7 @@ nav a {
 
 /* start of home page main */
 .home>section {
-    height: 48rem;
+    height: 46rem;
     position: relative;
 }
 .desktop-home-image {
@@ -339,7 +339,8 @@ input[type=submit]:focus {
 /* media queries */
 /* portrait */
 /* screen width>340px - increase header text size */
-@media screen and (min-width: 340px) {
+@media screen and (min-width: 340px) 
+and (orientation: portrait) {
     header {
         font-size: 2rem;
     }
@@ -349,7 +350,8 @@ input[type=submit]:focus {
     }
 }
 /* screen width>500px re-align hero image [small tablets] */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) 
+and (orientation: portrait) {
     body, nav {
         background-color: #DED5E0;
     }
@@ -368,17 +370,16 @@ input[type=submit]:focus {
     }
 }
 /* screen width>700 move overlay-text downward below image [larger tablets] */
-@media screen and (min-width: 700px) {
-    .home {
-        min-height: 89rem;
-    }
+@media screen and (min-width: 700px) 
+and (orientation: portrait) {
     #overlay-text-container {
         top: 2rem;
         max-width: 50rem;
     }
 }
 /* screen height>1000px [header and footer increase] */
-@media screen and (min-height: 1000px) {
+@media screen and (min-height: 1000px) 
+and (orientation: portrait) {
     header {
         font-size: 3rem;
     }
