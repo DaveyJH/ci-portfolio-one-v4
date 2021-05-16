@@ -85,7 +85,7 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    padding: 0 .2em;
+    padding: 0 .3em .1em;
     font-size: 1.2em;
     border: 0.1em solid #CEBBC9;
     flex: 1 1 25%;
@@ -102,6 +102,13 @@ nav li:hover:not(.active) {
     background-color: #CEBBC9;
     font-weight: 600;
     color: #3B2650;
+}
+nav a {
+    display: block;
+    width: calc(100% + .8em);
+    position: relative;
+    left: -.4em;
+    height: calc(100% + .2em);
 }
 /* end of nav section */
 /* end of header */
