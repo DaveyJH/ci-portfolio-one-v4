@@ -34,6 +34,8 @@ header {
     position: sticky;
     top: -6.6rem;
     z-index: 10;
+    /* this is a quick workaround to deal with galaxy fold single screen width, I am aware it cuts off a small section either side but appears OK */
+    overflow: hidden;
 }
 /* pink section */
 #header-pink {
