@@ -266,7 +266,7 @@ footer li:hover {
     font-size: 2.2rem;
     font-weight: 600;
     color: #3B2650;
-    height: calc(100vh - 12.4rem);
+    height: 50rem;
 }
 .contact form {
     margin: 2rem auto;
