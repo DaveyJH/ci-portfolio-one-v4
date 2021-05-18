@@ -1,0 +1,205 @@
+
+/* landscape screens */
+/* screen height<500px+landscape [small screens] */
+@media screen and (orientation: landscape)
+and (max-height: 500px) {
+    #title-container {
+        display: flex;
+        align-items: center;
+    }
+    #title-container * {
+        padding: 0 1rem;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    header h2 {
+        margin-bottom: 0;
+        font-size: 1.15em;
+    }
+    .home>section {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+    }
+    #overlay-text-container {
+        align-self: center;
+        top: 8%;
+        padding: 2rem;
+        width: 36%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-height: 14.4rem;
+        line-height: .8em;
+    }
+    #overlay-text-container p:last-of-type {
+        padding: .1rem 1rem;
+        line-height: initial;
+    }
+    #solo-image-container {
+        height: 70vh;
+        overflow: hidden;
+        flex: 0 0 50%;
+    }
+    #solo-image-container img {
+        position: relative;
+        top: -10vw;
+    }
+    footer ul {
+        padding: 0;
+        top: .5rem;
+        position: relative;
+    }
+}
+/* screen width<1199px+landscape [tablets] */
+@media screen and (orientation: landscape)
+and (max-width: 1199px) {
+    .home {
+        padding: 2rem 0 1rem;
+        min-height: 0;
+    }
+    .home>section {
+        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
+        background-size: 100% auto;
+        background-blend-mode: lighten;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #overlay-text-container {
+        align-self: center;
+        top: 8%;
+        padding: 2rem;
+        width: 36%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 1rem;
+        font-size: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-height: 15.4rem;
+    }
+    #overlay-text-container p:first-of-type {
+        line-height: 1em;
+        padding-bottom: .3rem;
+    }
+    #solo-image-container {
+        overflow: hidden;
+        flex: 0 0 50%;
+    }
+    #solo-image-container img {
+        position: relative;
+        bottom: 0;
+        box-shadow: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+/* screen width<580px smaller header font-size to prevent double line */
+@media screen and (orientation: landscape)
+and (max-width: 580px) {
+    #title-container{
+        font-size: 1.4rem;
+    }
+}
+/* screen width>1200px [desktops] */
+@media screen and (min-width: 1200px)
+and (min-height: 501px) {
+    .desktop-home-image {
+        visibility: visible;
+        display: initial;
+        height: 100%;
+        width: 25vw;
+    }
+    .home {
+        min-height: 0;
+    }
+    .home>section {
+        background: url(../images/sunset.jpg) no-repeat center left, linear-gradient(#E4DAE788, #E4DAE788);
+        background-size: 100% auto;
+        background-blend-mode: lighten;
+        height: calc(50vw - 18rem);
+        top: 4rem;
+    }
+    .line {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10vw;
+    }
+    .top img:first-of-type {
+        margin-top: 0;
+        margin-left: 0;
+        width: 25vw;
+        height: 100%;
+    }
+    .top {
+        margin-top: calc(14vh - 7rem);
+        position: relative;
+        top: -4rem;
+    }
+    .bottom {
+        position: relative;
+        top: -14rem;
+        padding: 0 23.75vw 10rem;
+    }
+    .desktop-home-image.middle {
+        z-index: 1;
+    }
+    #overlay-text-container {
+        top: calc(-50vw + 14rem);
+        font-size: 5rem;
+        max-width: 80rem;
+        box-shadow: .5rem .5rem .8rem #533C4DAA, -.5rem .5rem .8rem #533C4DAA, .5rem -.5rem .8rem #533C4DAA, -.5rem -.5rem .8rem #533C4DAA;
+        z-index: 2;
+    }
+    footer ul {
+        margin: 0 auto;
+        max-width: min(90vw, 120rem);
+    }
+    footer {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* screen height>1000px [header and footer increase] */
+@media screen and (min-height: 1000px) 
+and (orientation: portrait) {
+    header {
+        font-size: 3rem;
+    }
+    footer {
+        font-size: 2rem;
+    }
+    .top img:first-of-type {
+        margin-top: max(calc(45vh - 44rem), 1rem);
+    }
+    .home>section {
+        height: calc(100vh - 25.5rem);
+    }
+}
+
+
+
+
+
+
+
+
+
+.top img:first-of-type {
+    margin-top: max(calc(28vh - 18rem), 1rem);
+}
+.home>section {
+    height: min(123vw, 86rem);
+}
