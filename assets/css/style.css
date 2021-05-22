@@ -456,3 +456,30 @@ title text side by side */
         position: relative;
     }
 }
+/* [medium mobiles] landscape - header, footer and overlay-text size increase */
+@media screen and (orientation: landscape)
+and (min-height: 350px) {
+    header {
+        font-size: 2rem;
+    }
+    #title-container h2 {
+        line-height: 4.8rem;
+    }
+    footer {
+        font-size: 1.15rem;
+    }
+    .home>section {
+        height: calc(100vh - 14rem);
+    }
+    .top img:first-of-type {
+        top: -7.5rem;
+    }
+    #overlay-text-container {
+        font-size: 4.4rem;
+        height: auto;
+    }
+    #overlay-text-container h2 {
+        font-size: 3.8rem;
+        line-height: 3.8rem;
+    }
+}
