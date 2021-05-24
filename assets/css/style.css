@@ -21,7 +21,7 @@ body {
 li {
     list-style-type: none;
 }
-p, h1, h2, span {
+p, h1, h2, h3, span {
     cursor: default;
 }
 
@@ -51,7 +51,7 @@ header i {
 }
 h1 {
     color: #7F3946;
-    font-family: "caveat", cursive;
+    font-family: "Caveat", cursive;
     text-transform: capitalize;
     text-decoration: underline;
     letter-spacing: .03em;
@@ -271,6 +271,31 @@ footer li:hover {
     border-radius: .75rem;
 }
 /* end of gallery select */
+
+/* gallery page */
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-family:  "Caveat", cursive;
+    text-transform: uppercase;
+}
+h3, #return {
+    color: #3B2650;
+}
+#return {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+.gallery img {
+    width: 100%;
+    padding: 1rem 1.8rem 0;
+    box-sizing: border-box;
+}
+/* end of gallery page */
+
 /* start of contact page */
 .contact {
     background: url(../images/sunset.jpg) no-repeat center, linear-gradient(#E4DAE788, #E4DAE744);
@@ -350,6 +375,7 @@ input[type=submit]:hover {
 input[type=submit]:focus {
     box-shadow: 0 0 0 .4rem #603F83;
 }
+/* end of contact page */
 
 /* media queries */
 /* portrait */
