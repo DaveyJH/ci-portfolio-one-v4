@@ -239,6 +239,7 @@ footer li:hover {
     height: 20rem;
     margin: 2rem 0;
     background-color: #ECC2C0;
+    padding: 2rem;
 }
 .gallery-select .image {
     height: 100%;
@@ -255,7 +256,7 @@ footer li:hover {
 }
 .big-cats .image {
     background-image: url(../images/big-cat.jpg);
-    background-position: -6rem 0;
+    background-position: -3rem 0;
 }
 .gallery-select p {
     position: relative;
