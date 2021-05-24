@@ -66,8 +66,8 @@ header h2 {
     letter-spacing: .1em;
 }
 #header-image {
-    background: url(../images/hamster-400.jpg) no-repeat center center;
-    background-size: 250%;
+    background: url(../images/otter-yawn.jpg) no-repeat center center;
+    background-size: 150%;
     height: 1.75em;
     width: 1.75em;
     border: .25rem solid #DB8784;
@@ -207,10 +207,12 @@ footer li:hover {
 }
 .about img {
     width: 20rem;
-    border-radius: 3.5rem;
 }
 .about .image-container {
-    padding-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 3.5rem;
 }
 .about p {
     font-size: 2rem;
