@@ -135,8 +135,10 @@ The footer element contains a link to my GitHub and linked in profiles
 ***
 ### Features Left to Implement
 1. I would like to have the nav menu disappear when viewed via a landscape orientation on mobile devices
-    - *the nav bar takes up valuable screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs*
+    - *The nav bar takes up valuable screen real estate on smaller devices. I would like to change the camera icon in the header to a menu icon on certain screens. This icon would act as a drop down activator for the nav menu, allowing more space for photographs*
     - The sticky position applied to the header is a workaround until I can research the drop down menu in greater depth. When the pages are scrolled, it allows the main header content to disappear, but keeps the nav menu visible. I have done some research into hidden menu's and am confident with the CSS methods to achieve this, however, there appears to be an issue with screen readers and assistive technologies. I do not wish to implement a feature which causes accessibility issues. With the research I have done, this feature would be too time consuming to implement at present for too little gain
+2. The form on the contact page currently does not send information anywhere. 
+    - The limitation of this project is to use CSS and HTML and so I have not yet learned about creating the necessary scripting behind the form. I have chosen to leave the form on the website to show comprehension of the form element, however **the 'action' and 'method' attributes have been removed** to prevent any issue with errors
 ***
 ## Technologies Used
 
