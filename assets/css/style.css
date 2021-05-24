@@ -237,7 +237,8 @@ footer li:hover {
 }
 .gallery-select .container {
     height: 20rem;
-    padding: 2rem 0;
+    margin: 2rem 0;
+    background-color: #ECC2C0;
 }
 .gallery-select .image {
     height: 100%;
@@ -249,7 +250,8 @@ footer li:hover {
     background-position: -4rem -2rem;
 }
 .birds .image {
-    background-image: url(../images/birds.jpg);
+    background: url(../images/birds/bird5.jpg) center center no-repeat;
+    background-size: auto 100%;
 }
 .big-cats .image {
     background-image: url(../images/big-cat.jpg);
