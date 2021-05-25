@@ -496,6 +496,7 @@ and (orientation: portrait) {
         margin-top: max(2rem, calc(50vh - 51rem));
     }
     .contact {
+        color: red;
         padding: 3.5rem 8rem;
     }
     .contact p {
