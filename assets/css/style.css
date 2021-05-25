@@ -430,6 +430,13 @@ and (orientation: portrait) {
         border-radius: 4rem;
         box-shadow: .5rem .5rem 1rem #533C4D66, -.5rem -.5rem 1rem #533C4D66, -.5rem .5rem 1rem #533C4D66, .5rem -.5rem 1rem #533C4D66;
     }
+    .gallery-select .container {
+        margin: 4rem 0;
+    }
+    .gallery-select {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
 }
 /* screen width>700 move overlay-text downward below image [larger tablets] */
 @media screen and (min-width: 700px) 
@@ -453,6 +460,13 @@ and (orientation: portrait) {
     }
     .contact {
         padding: 3.5rem 8rem;
+    }
+    .gallery-select .container {
+        height: 36rem;
+        padding: 6rem;
+    }
+    .gallery-select .container p {
+        top: 17rem;
     }
 }
 /* landscape */
