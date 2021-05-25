@@ -395,7 +395,7 @@ and (orientation: portrait) {
         top: -7.6rem;
     }
     .home>section {
-        height: 138vw;
+        height: calc(100vh - 16.7rem);
         position: relative;
     }
     .contact {
