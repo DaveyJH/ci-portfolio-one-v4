@@ -478,7 +478,7 @@ and (orientation: portrait) {
         top: 17rem;
     }
     .gallery img {
-        padding-top: 3.5rem;
+        padding: 3.5rem 3rem 0;
     }
     h3 {
         font-size: 5rem;
