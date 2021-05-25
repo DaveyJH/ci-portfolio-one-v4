@@ -272,6 +272,7 @@ footer li:hover {
     width: 15rem;
     left: calc(50% - 7.5rem);
     border-radius: .75rem;
+    cursor: pointer;
 }
 /* end of gallery select */
 
