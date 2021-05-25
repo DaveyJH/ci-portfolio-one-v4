@@ -24,9 +24,6 @@ li {
 p, h1, h2, h3, span {
     cursor: default;
 }
-button {
-   -webkit-appearance: none;
-}
 
 /* header start */
 header {
@@ -472,6 +469,7 @@ and (orientation: portrait) {
     }
     .contact {
         padding: 3.5rem 4rem;
+        background: url(../images/sunset.jpg) no-repeat center, linear-gradient(#DED5E088, #DED5E044);
     }
     .contact p {
         font-size: 2.5rem;
@@ -503,6 +501,9 @@ and (orientation: portrait) {
     }
     .contact p {
         font-size: 3rem;
+    }
+    .contact form {
+        padding-bottom: 12rem;
     }
     .gallery-select .container {
         height: 36rem;
