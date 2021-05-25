@@ -397,8 +397,10 @@ and (orientation: portrait) {
         top: -7.6rem;
     }
     .home>section {
-        height: calc(100vh - 16.7rem);
+        /* height: calc(100vh - 16.7rem); */
         position: relative;
+        height: max(calc(100vw + 18rem), calc(100vh - 16.7rem));
+        max-height: 79rem;
     }
     .contact {
         height: max(74rem, calc(100vh - 25rem));
@@ -422,9 +424,9 @@ and (orientation: portrait) {
     #overlay-text-container {
         box-shadow: .5rem .5rem .8rem #533C4D66, -.5rem .5rem .8rem #533C4D66;
     }
-    .home>section {
+    /* .home>section {
         max-height: 70rem;
-    }
+    } */
     .top img:first-of-type {
         margin-top: 5.25rem;
     }
