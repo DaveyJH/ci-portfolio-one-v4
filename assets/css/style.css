@@ -307,11 +307,11 @@ h3, #return {
     background-size: auto 100%;
     font-size: 2.2rem;
     color: #3B2650;
-    height: 68rem;
+    height: 72rem;
 }
 .contact p {
     text-align: center;
-    padding: 2rem 2rem 0;
+    padding: 3rem 4rem 0;
 }
 .contact form {
     font-weight: 600;
@@ -399,7 +399,7 @@ and (orientation: portrait) {
         position: relative;
     }
     .contact {
-        height: max(74rem, calc(100vh - 20rem));
+        height: max(74rem, calc(100vh - 25rem));
     }
     #text-box {
         height: 20rem;
@@ -450,6 +450,12 @@ and (orientation: portrait) {
     .about p {
         line-height: 2.7rem;
     }
+    .contact {
+        padding: 3.5rem 4rem;
+    }
+    .contact p {
+        font-size: 2.5rem;
+    }
 }
 /* screen width>700 move overlay-text downward below image [larger tablets] */
 @media screen and (min-width: 700px) 
@@ -473,6 +479,9 @@ and (orientation: portrait) {
     }
     .contact {
         padding: 3.5rem 8rem;
+    }
+    .contact p {
+        font-size: 3rem;
     }
     .gallery-select .container {
         height: 36rem;
