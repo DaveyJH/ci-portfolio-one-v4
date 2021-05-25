@@ -445,6 +445,12 @@ and (orientation: portrait) {
         padding-left: 7rem;
         padding-right: 7rem;
     }
+    .gallery-select p {
+        font-size: 4rem;
+        width: 18.5rem;
+        left: -webkit-calc(50% - 9.25rem);
+        left: calc(50% - 9.25rem);
+    }
     .gallery img {
         padding-top: 2rem;
     }
@@ -508,6 +514,12 @@ and (orientation: portrait) {
     }
     #return {
         font-size: 3.2rem;
+    }
+    .gallery-select p {
+        font-size: 5rem;
+        width: 22rem;
+        left: -webkit-calc(50% - 11rem);
+        left: calc(50% - 11rem);
     }
     .about p {
         font-size: 3rem;
