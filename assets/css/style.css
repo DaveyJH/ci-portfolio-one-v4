@@ -552,6 +552,7 @@ title text side by side */
 @media screen and (orientation: landscape) {
     header {
         font-size: 1.6rem;
+        top: -3.8rem
     }
     #title-container {
         display: flex;
@@ -586,9 +587,47 @@ title text side by side */
         font-size: 3rem;
         line-height: 3rem;
     }
+    .contact {
+        height: 67rem;
+    }
+    .about {
+        padding: 3rem 4.2rem 3rem;
+    }
+    .about .image-container {
+        width: 20rem;
+        order: 2;
+        margin: 2rem;
+    }
+    .about p {
+        order: 3;
+    }
+    .about p:first-of-type {
+        order: 1;
+        padding-bottom: 0;
+    }
+    .about a {
+        order: 4;
+        padding: .8rem 4rem 0;
+    }
+    .about a:first-of-type {
+        align-self: flex-start;
+    }
+    .about a:nth-last-of-type(2) {
+        align-self: flex-end;
+        margin-top: -2.7rem;
+    }
+    .about a:last-of-type {
+        margin-top: -2.7rem;
+    }
     .top img:first-of-type {
         position: relative;
         top: -4rem;
+    }
+    #single-line-inputs {
+        width: 100%;
+    }
+    #single-line-inputs input {
+        width: 80%;
     }
     footer {
         font-size: .75rem;
@@ -599,6 +638,7 @@ title text side by side */
         top: .2em;
         position: relative;
     }
+
 }
 /* [medium mobiles] landscape - header, footer and overlay-text size increase */
 @media screen and (orientation: landscape)
