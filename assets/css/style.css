@@ -239,6 +239,8 @@ footer li:hover {
 /* start of gallery select page */
 .gallery-select {
     padding: 2rem 3.5rem;
+    min-height: -webkit-calc(100vh - 18.7rem);
+    min-height: calc(100vh - 18.7rem);
 }
 .gallery-select .container {
     height: 20rem;
