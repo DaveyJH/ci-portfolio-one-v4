@@ -89,7 +89,7 @@ nav li {
     display: inline-block;
     padding: 0 .3em .1em;
     font-size: 1.2em;
-    border: 0.1em solid #CEBBC9;
+    border: .1em solid #CEBBC9;
     flex: 1 1 25%;
     border-top: 0;
     margin: 0 .1em;
@@ -325,7 +325,7 @@ h3, #return {
     font-size: 2rem;
     color: #603F83;
     margin-bottom: 2.8rem;
-    padding-left: 0.5rem;
+    padding-left: .5rem;
     box-sizing: border-box;
     letter-spacing: .1rem;
     border-radius: .3rem;
@@ -358,7 +358,7 @@ label[for=text-box] {
     text-align:start;
 }
 #text-box {
-    padding: 0.75rem;
+    padding: .75rem;
     box-sizing: border-box;
     width: 100%;
     height: 15rem;
@@ -437,6 +437,15 @@ and (orientation: portrait) {
         padding-left: 7rem;
         padding-right: 7rem;
     }
+    .gallery img {
+        padding-top: 2rem;
+    }
+    h3 {
+        font-size: 4rem;
+    }
+    #return {
+        font-size: 2.7rem;
+    }
 }
 /* screen width>700 move overlay-text downward below image [larger tablets] */
 @media screen and (min-width: 700px) 
@@ -468,7 +477,17 @@ and (orientation: portrait) {
     .gallery-select .container p {
         top: 17rem;
     }
+    .gallery img {
+        padding-top: 3.5rem;
+    }
+    h3 {
+        font-size: 5rem;
+    }
+    #return {
+        font-size: 3.2rem;
+    }
 }
+
 /* landscape */
 /* [small screens] landscape - overlay text moves to left,
 header and footer re-size,
