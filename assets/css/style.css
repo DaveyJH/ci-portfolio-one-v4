@@ -392,41 +392,44 @@ input[type=submit]:focus {
 /* screen width>340px - increase header text size */
 @media screen and (min-width: 340px) 
 and (orientation: portrait) {
+    /* all */
     header {
         font-size: 2rem;
         top: -7.6rem;
     }
+    /* index.html */
     .home>section {
         /* height: calc(100vh - 16.7rem); */
         position: relative;
         height: max(calc(100vw + 18rem), calc(100vh - 16.7rem));
         max-height: 79rem;
     }
+    /* galleries.html */
+    .gallery-select {
+        padding: 1rem 3.5rem;
+    }
+    /* contact.html */
     .contact {
         height: max(74rem, calc(100vh - 25rem));
     }
     #text-box {
         height: 20rem;
     }
-    .gallery-select {
-        padding: 1rem 3.5rem;
-    }
 }
 /* screen width>500px re-align hero image [small tablets] */
 @media screen and (min-width: 500px) 
 and (orientation: portrait) {
+    /* all */
     body, nav {
         background-color: #DED5E0;
     }
     nav li {
         background-color: #E4DAE7;
     }
+    /* index.html */
     #overlay-text-container {
         box-shadow: .5rem .5rem .8rem #533C4D66, -.5rem .5rem .8rem #533C4D66;
     }
-    /* .home>section {
-        max-height: 70rem;
-    } */
     .top img:first-of-type {
         margin-top: 5.25rem;
     }
@@ -434,6 +437,7 @@ and (orientation: portrait) {
         border-radius: 4rem;
         box-shadow: .5rem .5rem 1rem #533C4D66, -.5rem -.5rem 1rem #533C4D66, -.5rem .5rem 1rem #533C4D66, .5rem -.5rem 1rem #533C4D66;
     }
+    /* galleries.html */
     .gallery-select .container {
         margin: 4rem 0;
     }
@@ -446,6 +450,7 @@ and (orientation: portrait) {
         width: 18.5rem;
         left: calc(50% - 9.25rem);
     }
+    /* birds.html, g2, g3 */
     .gallery img {
         padding-top: 2rem;
     }
@@ -456,10 +461,12 @@ and (orientation: portrait) {
     #return {
         font-size: 2.7rem;
     }
+    /* about.html */
     .about p {
         line-height: 2.7rem;
         padding: 0 3rem 1.6rem;
     }
+    /* contact.html */
     .contact {
         padding: 3.5rem 4rem;
         background: url(../images/sunset.jpg) no-repeat center, linear-gradient(#DED5E088, #DED5E044);
@@ -471,6 +478,7 @@ and (orientation: portrait) {
 /* screen width>700 move overlay-text downward below image [larger tablets] */
 @media screen and (min-width: 700px) 
 and (orientation: portrait) {
+    /* index.html */
     #overlay-text-container {
         top: 2rem;
         max-width: 50rem;
@@ -488,6 +496,7 @@ and (orientation: portrait) {
     .top img:first-of-type {
         margin-top: max(2rem, calc(50vh - 51rem));
     }
+    /* contact.html */
     .contact {
         padding: 3.5rem 8rem;
     }
@@ -497,13 +506,18 @@ and (orientation: portrait) {
     .contact form {
         padding-bottom: 12rem;
     }
+    /* galleries.html */
     .gallery-select .container {
         height: 36rem;
         padding: 6rem;
     }
-    .gallery-select .container p {
+    .gallery-select p {
+        font-size: 5rem;
         top: 17rem;
+        width: 22rem;
+        left: calc(50% - 11rem);
     }
+    /* birds.html, g2, g3 */
     .gallery img {
         padding: 3.5rem 3rem 0;
     }
@@ -513,11 +527,7 @@ and (orientation: portrait) {
     #return {
         font-size: 3.2rem;
     }
-    .gallery-select p {
-        font-size: 5rem;
-        width: 22rem;
-        left: calc(50% - 11rem);
-    }
+    /* about.html */
     .about p {
         font-size: 3rem;
         line-height: 4rem;
@@ -550,6 +560,7 @@ and (orientation: portrait) {
 header and footer re-size,
 title text side by side */
 @media screen and (orientation: landscape) {
+    /* all */
     header {
         font-size: 1.6rem;
         top: -3.8rem
@@ -564,6 +575,16 @@ title text side by side */
     #title-container h2 {
         line-height: 3.6rem;
     }
+    footer {
+        font-size: .75rem;
+    }
+    footer ul {
+        font-size: 3em;
+        padding-top: 0;
+        top: .2em;
+        position: relative;
+    }
+    /* index.html */
     .home>section {
         display: flex;
         flex-direction: row-reverse;
@@ -587,9 +608,15 @@ title text side by side */
         font-size: 3rem;
         line-height: 3rem;
     }
+    .top img:first-of-type {
+        position: relative;
+        top: -4rem;
+    }
+    /* contact.html */
     .contact {
         height: 67rem;
     }
+    /* about.html */
     .about {
         padding: 3rem 4.2rem 3rem;
     }
@@ -619,30 +646,18 @@ title text side by side */
     .about a:last-of-type {
         margin-top: -2.7rem;
     }
-    .top img:first-of-type {
-        position: relative;
-        top: -4rem;
-    }
+    /* contact.html */
     #single-line-inputs {
         width: 100%;
     }
     #single-line-inputs input {
         width: 80%;
     }
-    footer {
-        font-size: .75rem;
-    }
-    footer ul {
-        font-size: 3em;
-        padding-top: 0;
-        top: .2em;
-        position: relative;
-    }
-
 }
 /* [medium mobiles] landscape - header, footer and overlay-text size increase */
 @media screen and (orientation: landscape)
 and (min-height: 350px) {
+    /* all */
     header {
         font-size: 2rem;
     }
@@ -652,6 +667,7 @@ and (min-height: 350px) {
     footer {
         font-size: 1.15rem;
     }
+    /* index.html */
     .home>section {
         height: calc(100vh - 14rem);
     }
