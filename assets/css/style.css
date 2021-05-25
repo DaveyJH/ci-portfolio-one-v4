@@ -449,6 +449,7 @@ and (orientation: portrait) {
     }
     .about p {
         line-height: 2.7rem;
+        padding: 0 3rem 1.6rem;
     }
     .contact {
         padding: 3.5rem 4rem;
