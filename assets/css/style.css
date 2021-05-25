@@ -398,7 +398,7 @@ and (orientation: portrait) {
         position: relative;
     }
     .contact {
-        height: max(74rem, calc(100vh + 9.6rem));
+        height: max(74rem, calc(100vh - 20rem));
     }
     #text-box {
         height: 20rem;
@@ -449,6 +449,9 @@ and (orientation: portrait) {
     }
     .top img:first-of-type {
         margin-top: max(2rem, calc(50vh - 51rem));
+    }
+    .contact {
+        padding: 3.5rem 8rem;
     }
 }
 /* landscape */
