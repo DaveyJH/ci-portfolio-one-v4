@@ -314,6 +314,11 @@ h3, #return {
     text-align: center;
     padding: 3rem 4rem 0;
 }
+.contact span {
+    position: relative;
+    top: .5rem;
+    left: .2rem;
+}
 .contact form {
     font-weight: 600;
     padding: 5rem 3rem;
@@ -502,6 +507,9 @@ and (orientation: portrait) {
     }
     .contact p {
         font-size: 3rem;
+    }
+    .contact span {
+        top: .6rem;
     }
     .contact form {
         padding-bottom: 12rem;
