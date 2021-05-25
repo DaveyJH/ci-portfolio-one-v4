@@ -107,9 +107,11 @@ nav li:hover:not(.active) {
 }
 nav a {
     display: block;
+    width: -webkit-calc(100% + .8em);
     width: calc(100% + .8em);
     position: relative;
     left: -.4em;
+    height: -webkit-calc(100% + .2em);
     height: calc(100% + .2em);
 }
 /* end of nav section */
@@ -125,8 +127,10 @@ nav a {
     display: none;
 }
 .top img:first-of-type {
+    margin-top: max(-webkit-calc(34vh - 18rem), 1rem);
     margin-top: max(calc(34vh - 18rem), 1rem);
     width: min(100%, 60rem);
+    margin-left: -webkit-calc(50% - min(50%, 30rem));
     margin-left: calc(50% - min(50%, 30rem));
 }
 #overlay-text-container {
@@ -202,6 +206,7 @@ footer li:hover {
     align-items: center;
     text-align: center;
     padding: 4rem 2.2rem 3rem;
+    min-height: -webkit-calc(100vh - 16.4rem);
     min-height: calc(100vh - 16.4rem);
     box-sizing: border-box;
 }
@@ -270,6 +275,7 @@ footer li:hover {
     text-transform: capitalize;
     font-variant: small-caps;
     width: 15rem;
+    left: -webkit-calc(50% - 7.5rem);
     left: calc(50% - 7.5rem);
     border-radius: .75rem;
     cursor: pointer;
@@ -395,10 +401,12 @@ and (orientation: portrait) {
         top: -7.6rem;
     }
     .home>section {
+        height: -webkit-calc(100vh - 16.7rem);
         height: calc(100vh - 16.7rem);
         position: relative;
     }
     .contact {
+        height: max(74rem, -webkit-calc(100vh - 25rem));
         height: max(74rem, calc(100vh - 25rem));
     }
     #text-box {
@@ -476,6 +484,7 @@ and (orientation: portrait) {
         max-height: 88rem;
     }
     .top img:first-of-type {
+        margin-top: max(2rem, -webkit-calc(50vh - 51rem));
         margin-top: max(2rem, calc(50vh - 51rem));
     }
     .contact {
@@ -548,6 +557,7 @@ title text side by side */
     .home>section {
         display: flex;
         flex-direction: row-reverse;
+        height: -webkit-calc(100vh - 10rem);
         height: calc(100vh - 10rem);
         overflow: hidden;
     }
@@ -595,6 +605,7 @@ and (min-height: 350px) {
         font-size: 1.15rem;
     }
     .home>section {
+        height: -webkit-calc(100vh - 14rem);
         height: calc(100vh - 14rem);
     }
     .top img:first-of-type {
