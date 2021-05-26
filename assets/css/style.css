@@ -874,12 +874,12 @@ and (min-width: 1200px) {
         position: relative;
         width: 90%;
         margin: 0 auto;
-        animation: top-line-show 2.2s both;
+        animation: top-line-show 2.2s ease-out both;
     }
     .bottom {
         top: -15rem;
         width: 60%;
-        animation: bottom-line-show 2.2s .75s both; 
+        animation: bottom-line-show 2.2s .75s ease-out both; 
     }
     .desktop-home-image {
         visibility: visible;
@@ -913,7 +913,7 @@ and (min-width: 1200px) {
     @keyframes top-line-show {
         from {
             transform: scale(0);
-            top: -300%;
+            top: -100%;
         }
         to {
             transform: scale(1);
@@ -923,7 +923,7 @@ and (min-width: 1200px) {
     @keyframes bottom-line-show {
         from {
             transform: scale(0);
-            top: -300%;
+            top: -150%;
         }
         to {
             transform: scale(1);
