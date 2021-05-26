@@ -105,6 +105,7 @@ nav li:hover:not(.active) {
     font-weight: 600;
     color: #3B2650;
 }
+/* height and width to prevent color change causing bad UX */
 nav a {
     display: block;
     width: calc(100% + .8em);
@@ -124,7 +125,7 @@ nav a {
     visibility: hidden;
     display: none;
 }
-.top img:first-of-type {
+#main-image {
     margin-top: max(calc(34vh - 18rem), 1rem);
     width: min(100%, 60rem);
     margin-left: calc(50% - min(50%, 30rem));
@@ -442,7 +443,7 @@ and (orientation: portrait) {
     #overlay-text-container {
         box-shadow: .5rem .5rem .8rem #533C4D66, -.5rem .5rem .8rem #533C4D66;
     }
-    .top img:first-of-type {
+    #main-image {
         margin-top: 5.25rem;
     }
     .line img {
@@ -505,7 +506,7 @@ and (orientation: portrait) {
     .home>section {
         max-height: 88rem;
     }
-    .top img:first-of-type {
+    #main-image {
         margin-top: max(2rem, calc(50vh - 51rem));
     }
     /* contact.html */
@@ -623,7 +624,7 @@ title text side by side */
         font-size: 3rem;
         line-height: 3rem;
     }
-    .top img:first-of-type {
+    #main-image {
         position: relative;
         top: -6rem;
     }
@@ -698,7 +699,7 @@ and (min-height: 340px) {
     .home>section {
         height: calc(100vh - 14rem);
     }
-    .top img:first-of-type {
+    #main-image {
         top: -7.5rem;
     }
     #overlay-text-container {
@@ -828,7 +829,7 @@ and (min-height: 700px) {
         font-size: 6rem;
         line-height: 8rem;
     }
-    .top img:first-of-type {
+    #main-image {
         border-top-left-radius: 2.5rem;
         border-bottom-left-radius: 2.5rem;
     }
@@ -892,7 +893,7 @@ and (min-width: 1200px) {
     #solo-image-container {
         height: 100%;
     }
-    .top img:first-of-type {
+    #main-image {
         border-radius: 4.5rem;
         top: 0;
         margin: 2rem;
