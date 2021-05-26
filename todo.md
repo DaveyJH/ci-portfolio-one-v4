@@ -1,0 +1,4 @@
+- overlay-text-container font size change to em to allow responsive font with few media queries? *check all rem and em sizing within overlay*
+- reduce fonts to shorthand
+- change .home h2 to em and check all media queries
+- reduce .image backrgound properties to save characters
