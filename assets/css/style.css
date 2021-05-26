@@ -220,8 +220,8 @@ footer li:hover {
     background-size: auto 100%;
 }
 .big-cats .image {
-    background-image: url(../images/big-cat.jpg);
-    background-position: -3rem 0;
+    background: url(../images/big-cats/leopard-cub-2.jpg) center center no-repeat;
+    background-size: auto 100%;
 }
 .gallery-select p {
     position: relative;
