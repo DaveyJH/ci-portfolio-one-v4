@@ -702,6 +702,19 @@ and (min-height: 340px) {
         font-size: 3.8rem;
         line-height: 3.8rem;
     }
+    /* galleries.html */
+    .container .image {
+        background-position-x: left;
+    }
+    .container p {
+        left: calc(75% - 9rem);
+    }
+    .birds .image {
+        background-position-x: right;
+    }
+    .birds p {
+        left: calc(25% - 6rem);
+    }
 }
 /* [medium tablets] gallery images appear in two columns */
 @media screen and (orientation: landscape)
