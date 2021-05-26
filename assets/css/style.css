@@ -958,6 +958,9 @@ and (min-width: 1200px) {
     .gallery-select li:nth-of-type(2) {
         top: 7.5rem;
     }
+    .container .image {
+        background-position-x: center;
+    }
     .container p {
         top: 45rem;
         font-size: 8rem;
