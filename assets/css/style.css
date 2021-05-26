@@ -620,9 +620,16 @@ title text side by side */
         position: relative;
         top: -4rem;
     }
-    /* contact.html */
-    .contact {
-        height: 67rem;
+    /* birds.html, g2, g3 */
+    #gallery-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #gallery-images img {
+        height: calc(100vh - 3.7rem);
+        width: auto;
+        margin: 0 auto;
     }
     /* about.html */
     .about {
