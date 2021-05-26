@@ -719,5 +719,6 @@ and (min-height: 500px) {
         height: auto;
         box-sizing: border-box;
         margin: 0 auto 1rem;
+        padding: 0;
     }
 }
