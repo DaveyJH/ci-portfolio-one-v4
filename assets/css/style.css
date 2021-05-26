@@ -662,8 +662,12 @@ title text side by side */
         margin-top: -2.7rem;
     }
     /* contact.html */
+    .contact {
+        height: 67rem;
+    }
     #single-line-inputs {
         width: 100%;
+        max-width: 60rem;
     }
     #single-line-inputs input {
         width: 80%;
