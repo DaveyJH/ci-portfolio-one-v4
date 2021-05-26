@@ -675,10 +675,11 @@ title text side by side */
 }
 /* [medium mobiles] landscape - header, footer and overlay-text size increase */
 @media screen and (orientation: landscape)
-and (min-height: 350px) {
+and (min-height: 340px) {
     /* all */
     header {
         font-size: 2rem;
+        top: -4.8rem;
     }
     #title-container h2 {
         line-height: 4.8rem;
