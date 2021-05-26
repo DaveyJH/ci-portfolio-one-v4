@@ -851,6 +851,83 @@ and (min-height: 700px) {
 /* [desktop + large tablets] */
 @media screen and (orientation: landscape)
 and (min-width: 1200px) {
+    /* index.html */
+    .home>section {
+        display: block;
+        padding-top: 3rem;
+        height: calc(100vh - 22.7rem);
+    }
+    .top, .bottom {
+        display: flex;
+        height: 50%;
+        justify-content: space-around;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        animation: top-line-show 2.2s both;
+    }
+    .bottom {
+        top: -15rem;
+        width: 60%;
+        animation: bottom-line-show 2.2s .75s both; 
+    }
+    .desktop-home-image {
+        visibility: visible;
+        display: initial;
+        border-radius: 4.5rem;
+        margin: 2rem;
+        box-shadow: 2rem 2rem #cebbc966;
+        height: 40.2rem;
+    }
+    #solo-image-container {
+        height: 100%;
+    }
+    .top img:first-of-type {
+        border-radius: 4.5rem;
+        top: 0;
+        margin: 2rem;
+        height: 40.2rem;
+        width: auto;
+        box-shadow: 2rem 2rem #cebbc966;
+    }
+    .middle {
+        z-index: 2;
+    }
+    #overlay-text-container {
+        margin: 0 auto;
+        top: -54rem;
+        max-width: 130rem;
+        z-index: 3;
+        animation: overlay-appear 1.2s 2.2s both;
+    }
+    @keyframes top-line-show {
+        from {
+            transform: scale(0);
+            top: -300%;
+        }
+        to {
+            transform: scale(1);
+            top: 0;
+        }
+    }
+    @keyframes bottom-line-show {
+        from {
+            transform: scale(0);
+            top: -300%;
+        }
+        to {
+            transform: scale(1);
+            top: -15rem;
+        }
+    }
+    @keyframes overlay-appear {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
     /* galleries.html */
     .gallery-select {
         min-height: calc(100vh - 26.7rem);
