@@ -2,3 +2,4 @@
 - reduce fonts to shorthand
 - change .home h2 to em and check all media queries
 - reduce .image backrgound properties to save characters
+- consolidate colours?
