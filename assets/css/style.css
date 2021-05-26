@@ -615,7 +615,7 @@ title text side by side */
     }
     .top img:first-of-type {
         position: relative;
-        top: -4rem;
+        top: -6rem;
     }
     /* birds.html, g2, g3 */
     #gallery-images {
