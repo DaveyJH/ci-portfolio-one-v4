@@ -5,3 +5,19 @@
 - consolidate colours?
 
 - **lots of work on README.md**
+
+# Spence Session
+
+- techsini multi device
+
+
+- link in readme to live and github
+- **testing**
+    - html and css validation (images)
+    - user story testing
+- images of deployed
+
+- lighthouse testing
+
+- finish readme
+- **ping spence**
