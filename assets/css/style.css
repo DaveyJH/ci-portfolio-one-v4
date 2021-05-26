@@ -703,3 +703,21 @@ and (min-height: 340px) {
         line-height: 3.8rem;
     }
 }
+@media screen and (orientation: landscape)
+and (min-height: 500px) {
+    /* birds.html, g2, g3 */
+    #gallery-images {
+        margin-top: 1rem;
+        display: block;
+        padding: 0 2rem;
+        column-count: 2;
+        column-gap: 2rem;
+        height: 100%;
+    }
+    #gallery-images img {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 0 auto 1rem;
+    }
+}
