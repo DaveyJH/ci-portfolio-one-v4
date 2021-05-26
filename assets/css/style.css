@@ -212,7 +212,7 @@ footer li:hover {
     background-repeat: no-repeat;
 }
 .urban .image {
-    background-image: url(../images/fox.jpg);
+    background: url(../images/urban/rat-2.jpg) center center no-repeat;
     background-position: -4rem -2rem;
 }
 .birds .image {
