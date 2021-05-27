@@ -188,7 +188,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ***
 ## Bugs
 ### Current
-- Having tested the website via GitHub Pages and viewing on an iOS device (iPhone XR), some sizing is not correct and leads to a bad UX.
+- Having tested the website via GitHub Pages and viewing on an iOS device (iPhone XR), some sizing is not correct and leads to a bad UX
+- The icons which link to my GitHub and LinkedIn only work at the very bottom of the rendered icon
 ***
 ### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
