@@ -262,9 +262,9 @@ I have run the entire website through Chrome's lighthouse audit service and the 
 ***
 4. Some screen sizes cause the lower section of overlay text to be obscured by the footer
 
-*Commit - **[fb5cc65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/fb5cc65e3a87240f06642a4cad651c5f7c30349b)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed
+*Commit - **[fb5cc65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/fb5cc65e3a87240f06642a4cad651c5f7c30349b)** - altered min-height value to be responsive up to 700px. From 700px, apply a minimum height value which allows the entire content to be viewed*
 
-Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe816bf42ac0e03b51c5331cc896e74dde2ac9#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
+*Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe816bf42ac0e03b51c5331cc896e74dde2ac9#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
 ***
 5. The icons which link to my GitHub and LinkedIn only work at the very bottom of the rendered icon
 
@@ -276,28 +276,46 @@ footer span a {
 ~~~
 *Setting the position to relative appears to have resolved the issue. I believe this causes the anchor element's z-index to be higher than the FontAwesome icon. When I have more time, I will try and research more about the class and styling applied by FontAwesome*
 
-Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)**
+*Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)***
 ## Deployment
+Throughout the project, I have used VSCode with source control and a number of extensions. I have also used GitHubs desktop application. The two programs have allowed me to stage and commit files as and when necessary. Once committed, deploying the prject to a live site has been achieved via the following
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+**Github Pages**
+- Navigate to the relevant GitHub Repository [here](https://github.com/DaveyJH/ci-portfolio-one-v4)
+- Select "Settings" from the options below the name of the repository
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+![Settings Snip](./readme-content/images/github-settings.png)
+- Select "Pages" from the left hand menu
 
-In addition, if it is not obvious, you should also describe how to run your code locally. -->
+![Pages Snip](./readme-content/images/pages-select.png)
+- Select "Branch: main" as the source and leave the directory as "/(root)"
 
+![Source Snip](./readme-content/images/pages-source.png)
+
+- Click the Save button
+
+- Take note of the URL provided
+
+![URL Snip](./readme-content/images/pages-url.png)
+
+- GitHub takes a short while to publish the page. The bar turns green if you refresh the pages tab and the page has been deployed
+
+![Confirmed Deployment Snip](./readme-content/images/pages-deployed.png)
+- Click the link or copy the URL to a browser to reach the deployed page
+https://daveyjh.github.io/ci-portfolio-one-v4/
+
+The site is now live and operational
 ***
 ## Credits
 
 ### Content
 - The idea to link to lines of code within GitHub commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
+- I must pay thanks to my sister, Katie Horrocks. Her passion for photography has enabled me to design and produce a project which I have thouroughly enjoyed working on
 ### Media
 - The photos are from Katie's personal albums and she has given permission for me to use them so as not to infringe her copyrights
     - The silhouette background image is from [Unsplash](https://unsplash.com)
 ### Acknowledgements
-- 
+- I would like to thank my Code Institute mentor, [Spencer Barriball](https://github.com/5pence), for the guidance and encouragement given throughout the project. Following his advice, I have really refined the project and am very happy with the result
 ***
 ### Personal Development
 
