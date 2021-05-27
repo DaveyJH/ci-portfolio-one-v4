@@ -51,16 +51,14 @@ header i {
 }
 h1 {
     color: #7F3946;
-    font-family: "Caveat", cursive;
     text-transform: capitalize;
     text-decoration: underline;
     letter-spacing: .03em;
-    font-size: 1.9em;
+    font: 700 1.9em "Caveat", cursive;
 }
 header h2 {
     color: #603F83;
-    font-family: "Dancing Script", cursive;
-    font-size: 1.2em;
+    font: 700 1.2em "Dancing Script", cursive;
     margin-top: -.25em;
     margin-bottom: .25em;
     letter-spacing: .1em;
@@ -141,7 +139,6 @@ nav a {
 }
 #overlay-text-container {
     background-color:#D2C1D688;
-    font-size: 4rem;
     text-align: center;
     width: 85%;
     margin: 0 auto;
@@ -152,8 +149,7 @@ nav a {
     text-shadow: .1em .1em .15em #D2C1C6, -.1em -.1em .15em #D2C1C6;
     text-transform: capitalize;
     max-width: 40rem;
-    font-family: "caveat", cursive, sans-serif;
-    font-weight: 700;
+    font: 700 4rem "Caveat", cursive, sans-serif;
     padding: .2em .4em .4em;
     letter-spacing: .025em;
     box-sizing: border-box;
@@ -163,10 +159,8 @@ nav a {
     padding-bottom: 1rem;
 }
 #overlay-text-container p:last-of-type {
-    font-family: "Dancing Script", cursive;
-    font-size: .625em;
+    font: 600 .625em "Dancing Script", cursive;
     color: #6E333D;
-    font-weight: 600;
     letter-spacing: initial;
 }
 /* end of home page main */
@@ -261,10 +255,9 @@ footer li:hover {
 
 /* start of gallery pages */
 h3 {
-    font-size: 3rem;
+    font: 3rem "Caveat", cursive;
     text-align: center;
     padding-top: 1rem;
-    font-family:  "Caveat", cursive;
     text-transform: uppercase;
 }
 h3, #return {
