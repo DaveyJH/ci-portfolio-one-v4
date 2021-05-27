@@ -72,7 +72,7 @@ Contact
 *See [here](./readme-content/wireframes.md#tablet) for other device types*
 ***
 #### Colour Scheme
-A neutral color scheme created using [coolors.co](https://coolors.co)
+A neutral colour scheme created using *[coolors.co](https://coolors.co)*
 
 ![Colour Scheme](./readme-content/images/khp-color.png)
 
@@ -87,7 +87,7 @@ Unfortunately the colours originally chosen gave a poor result unless taken to t
 ![Purple Font Change](./readme-content/images/header-purple-font.png)
 ***
 #### Typography
-The website will not feature a great deal of text. The fonts are imported into the CSS file from [Google Fonts](https://fonts.google.com/)
+The website will not feature a great deal of text. The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)*
 - **Caveat** has been chosen as the main font for the title text. It is a friendly font which gives a more personal appearance. The fallback family of **cursive** maintains the personal appearance
 - **Dancing Script** has been chosen for the 'tag line' font. The font is more calligraphic and exudes a stylish tone, relatable to the photographic content of the website. The fallback family of **cursive** means the overall style will be maintained in the event some fonts fail to render
 - **Indie Flower** has been chosen as the nav menu and secondary page's title font. It maintains the welcoming mood of the site, hoping to maintain positive user experiences. As with the other larger text elements, the fallback font remains as **cursive**
@@ -132,6 +132,24 @@ The images will be compressed using *[Compressor.io](https://compressor.io/)*
 
     ![Footer Snip](./readme-content/images/footer-snip.png)
 ***
+6. The galleries are separated into different categories
+>*"As a returning visitor...**look at some different galleries**...**I really do like the photographs**"*
+- *the gallery images and styling allows clear identification of the various galleries*
+
+    ![Galleries Snip](./readme-content/images/galleries.png)
+***
+7. The about page allows a little insight into the person behind the photographs
+>*"As a returning visitor...**I am interested in learning a little more about Katie**"*
+- *the about page gives some basic information about Katie's achievments and what she does. It also contains an image of her so people may recognise her*
+    ![About Snip](./readme-content/images/about.png)
+
+***
+8. The contact page allows enquiries to be sent directly to Katie
+>*"As an interested person...**I want to be able to contact Katie**"*
+- *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and style*
+
+    ![Contact Snip](./readme-content/images/contact.png)
+***
 The footer element contains a link to my GitHub and linked in profiles
 >BONUS
 - *the design of the footer allows for discrete links to me, should any visitors wish to know more about the site's creator (yellow border imposed on screenshot for demonstration purposes)*
@@ -144,6 +162,8 @@ The footer element contains a link to my GitHub and linked in profiles
     - The sticky position applied to the header is a workaround until I can research the drop down menu in greater depth. When the pages are scrolled, it allows the main header content to disappear, but keeps the nav menu visible. I have done some research into hidden menu's and am confident with the CSS methods to achieve this, however, there appears to be an issue with screen readers and assistive technologies. I do not wish to implement a feature which causes accessibility issues. With the research I have done, this feature would be too time consuming to implement at present for too little gain
 2. The form on the contact page currently does not send information anywhere. 
     - The limitation of this project is to use CSS and HTML and so I have not yet learned about creating the necessary scripting behind the form. I have chosen to leave the form on the website to show comprehension of the form element, however **the 'action' and 'method' attributes have been removed** to prevent any issue with errors
+3. If Katie decides to add a blog at a later date it will require a re-work of the navigation bar
+    - As with note 1 above, I would look to implement a menu structure which allows the additional content to be revealed. I would use this method for the gallery selections, possibly removing the galleries.html page altogether, and would modify the structure of the navigation. The "about" page would sit within a sub menu with "blog" and would fall under a title along the lines of "other" to indicate it does not contain photographs
 ***
 ## Technologies Used
 
@@ -155,7 +175,7 @@ The footer element contains a link to my GitHub and linked in profiles
 - *[Font Awesome](https://fontawesome.com/)*
     - The project uses icons from Font Awesome version 5
 - *[Coolors.co](https://coolors.co)*
-    - The color scheme, and subsequent shades and tones, were generated via this application
+    - The colour scheme, and subsequent shades and tones, were generated via this application
 - *[Visual Studio Code](https://code.visualstudio.com/)*
     - I have used this IDE as I had a very limited experience with an older version. The extensions available have allowed me to customize my workspace and become more efficient
         - Special mention to *[YuichiNukiyama](https://github.com/YuichiNukiyama)* for their *[Preview on Web Server](https://github.com/YuichiNukiyama/vscode-preview-server)* extension as this allowed a very quick visual representation of changes made
@@ -165,30 +185,47 @@ The footer element contains a link to my GitHub and linked in profiles
     - The fonts used in the website are imported from Google Fonts
 - *[Multi Device Mockup Generator](https://techsini.com/multi-mockup/index.php)*
     - The image at the top of this document was created using a free service provided by TechSini.com
+- *[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)*
+    - I put the relevant hex colour values in to the contrast checker to unsure good results, this is why a second colour scheme was generated
+- *[a11y Contrast Accessibility Validator](color.a11y.com)*
+    - I ran the finished website through this check service to double check contrasts on the final version
+- *[W3C Markup Validation Service](validator.w3.org)*
+    - I used this service to check the HTML and CSS files for errors. During development, I copied the entire text from the files and ran them through the direct input method
 ***
 ## Testing
+As the website is written purely with HTML and CSS, the testing carried out will ensure the visual and functional aspects of the site work as intended. I will test on a number of browsers and screen sizes. I also intend to test the website for accessibility, validation and SEO
+- *All anchor elements should work as intended and external links should open in new tabs*
+- *All user requirements should be addressed and tested*
+- *Contrast checks should report no errors (without explanation)*
+- *Validation checks should report no errors*
+- *Lighthouse testing scores should be high (ideally above 90)*
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have loaded the website in Chrome, Firefox and Edge. Each browser displayed as intended and the responsive design functioned as intended. Further to testing in the developer tools option of each browser, I have used a number of mobile devices to ensure the website functions and appears OK across all devices
+- *Having used "vh" for some sizing means you need to scroll on certain devices to see the full page. This appears to be due to the address bar/status bar and is something I will research before my next project*
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+All anchor elements have been tested to ensure the correct href value has been used and external links open in new tabs 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+All user requirements have been addressed and tested as shown in [Existing Features](#Existing-Features)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+I have run the website through [a11y Contrast Accessibility Validator](color.a11y.com) and the result is shown below
+![Contrast Check Results](./readme-content/images/testing/contrast-check.png)
+*As shown in the image, there is one failure on this test. The failed element is the footer text, which links to me as an author of the website, and I am happy to leave this as it is. The element in question is intended to be subtle and is not relevant to the content of the site. I believe changing the style of this element to pass the contrast check could cause it to distract from the purpose of the main site*
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Each page has been run through the W3C markup validation service, the index page and CSS reports are shown below
+![index.html Validation](./readme-content/images/testing/index-validate.png)
+![CSS Validation](./readme-content/images/testing/css-validate.png)
+All page tests are shown [here](w3c.md) and I have included a brief explanation of the 3 warnings shown on the CSS validation
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+I have run the entire website through Chrome's lighthouse audit service and the results are shown below
+- Mobile
+![Mobile Lighthouse Results](./readme-content/images/testing/lighthouse-mob.png)
+- Desktop
+![Desktop Lighthouse Results](./readme-content/images/testing/lighthouse-desktop.png)
 ***
 ## Bugs
 ### Current
 - Having tested the website via GitHub Pages and viewing on an iOS device (iPhone XR), some sizing is not correct and leads to a bad UX
+
 *This appears to be due to the methods of spacing and sizing I have used. At this stage, I am not going to attempt to fix this as the UX is only slightly effected and more research leads me to believe the media queries I have used are not specific enough for iOS products*
 ***
 ### Resolved
@@ -257,10 +294,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The idea to link to lines of code within GitHub commits came from *[Chase Woodford](http://www.chasewoodford.com/blog/linking-highlighted-lines-code-github/)*
 ### Media
-- The photos being used in the site are currently from *[Unsplash](https://unsplash.com)* but will be updated with photographs from Katie's albums as soon as she has chosen them
+- The photos are from Katie's personal albums and she has given permission for me to use them so as not to infringe her copyrights
+    - The silhouette background image is from [Unsplash](https://unsplash.com)
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- 
 ***
 ### Personal Development
 
