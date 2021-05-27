@@ -903,8 +903,7 @@ and (min-width: 1200px) {
         z-index: 2;
     }
     #overlay-text-container {
-        margin: 0 auto;
-        top: -54rem;
+        margin: -53.75vh auto 0;
         max-width: 130rem;
         z-index: 3;
         animation: overlay-appear 1.2s 2.2s both;
