@@ -179,6 +179,10 @@ footer span {
 footer span i {
     padding: 0 .1rem;
 }
+/* causes z-index change and brings anchor infront of fontawesome icon? */
+footer span a {
+    position: relative;
+}
 footer.home-page-sticky {
     position: fixed;
     bottom: 0;
