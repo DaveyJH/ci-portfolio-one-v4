@@ -223,17 +223,17 @@ footer li:hover {
         background-size: auto 100%;
     }
 }
+.image {
+    background: no-repeat center center/auto 100%;
+}
 .urban .image {
-    background: url(../images/urban/rat-2.jpg) center center no-repeat;
-    background-size: auto 100%;
+    background-image: url(../images/urban/rat-2.jpg)
 }
 .birds .image {
-    background: url(../images/birds/house-sparrow.jpg) center center no-repeat;
-    background-size: auto 100%;
+    background-image: url(../images/birds/house-sparrow.jpg);
 }
 .big-cats .image {
-    background: url(../images/big-cats/leopard-cub-2.jpg) center center no-repeat;
-    background-size: auto 100%;
+    background-image: url(../images/big-cats/leopard-cub-2.jpg);
 }
 .gallery-select p {
     position: relative;
@@ -311,9 +311,8 @@ h3, #return {
 
 /* start of contact page */
 .contact {
-    background: url(../images/sunset.jpg) no-repeat center, linear-gradient(#E4DAE788, #E4DAE744);
+    background: url(../images/sunset.jpg) no-repeat center/auto 100%, linear-gradient(#E4DAE788, #E4DAE744);
     background-blend-mode: lighten;
-    background-size: auto 100%;
     font-size: 2.2rem;
     color: #3B2650;
     height: 72rem;
