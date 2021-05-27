@@ -1,4 +1,5 @@
 # Portfolio Project 1 - HTML/CSS Essentials
+![Multiple Device Demo](./readme-content/images/multi-device.png)
 ## Live Site
 [Katie Horrocks - Wildlife Photography](https://daveyjh.github.io/ci-portfolio-one-v4)
 ## Repository
@@ -162,10 +163,12 @@ The footer element contains a link to my GitHub and linked in profiles
     - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
 - *[Google Fonts](https://fonts.google.com/)*
     - The fonts used in the website are imported from Google Fonts
+- *[Multi Device Mockup Generator](https://techsini.com/multi-mockup/index.php)*
+    - The image at the top of this document was created using a free service provided by TechSini.com
 ***
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -181,7 +184,7 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 ***
 ## Bugs
 ### Current
@@ -227,14 +230,14 @@ Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe8
 ***
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - Different values for environment variables (Heroku Config Vars)?
 - Different configuration files?
 - Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+In addition, if it is not obvious, you should also describe how to run your code locally. -->
 
 ***
 ## Credits
