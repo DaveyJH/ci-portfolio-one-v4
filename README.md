@@ -189,7 +189,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Bugs
 ### Current
 - Having tested the website via GitHub Pages and viewing on an iOS device (iPhone XR), some sizing is not correct and leads to a bad UX
-- The icons which link to my GitHub and LinkedIn only work at the very bottom of the rendered icon
+*This appears to be due to the methods of spacing and sizing I have used. At this stage, I am not going to attempt to fix this as the UX is only slightly effected and more research leads me to believe the media queries I have used are not specific enough for iOS products*
 ***
 ### Resolved
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
@@ -200,7 +200,7 @@ If this section grows too long, you may want to split it off into a separate fil
         <a href="./index.html">home</a>
     </li>
 ~~~
-*Putting the text in a div, as a child of the anchor, has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
+*Putting the text in a div as a child of the anchor has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
 
 ***index.html** - lines - **31 - 37***
 ~~~
