@@ -1,4 +1,9 @@
 # Portfolio Project 1 - HTML/CSS Essentials
+## Live Site
+[Katie Horrocks - Wildlife Photography](https://daveyjh.github.io/ci-portfolio-one-v4)
+## Repository
+[https://github.com/daveyjh/ci-portfolio-one-v4](https://github.com/daveyjh/ci-portfolio-one-v4)
+***
 ## Table of Contents
 - [Objective](#Objective)
 - [Brief](#Brief)
@@ -31,7 +36,6 @@ In this project I intend to provide a portfolio style website for my sister's wi
 ***
 ## Brief
 ### **Katie Horrocks - Wildlife Photography**
-<!-- link to site here -->
 The goal of this website is to promote Katie Horrocks' photography.  The client would like to have:
 - a brief introduction, who she is and what she does
 - the client intends to display a few small galleries
