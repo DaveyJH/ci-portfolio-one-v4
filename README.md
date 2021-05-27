@@ -229,6 +229,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Commit - **[6cfe816](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/6cfe816bf42ac0e03b51c5331cc896e74dde2ac9#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR363)** - at screen min-width of 1200px, the min-height is removed to prevent obscure lower margins on the content*
 ***
+5. The icons which link to my GitHub and LinkedIn only work at the very bottom of the rendered icon
+
+***style.css** - lines - **183 - 185***
+~~~
+footer span a {
+    position: relative;
+}
+~~~
+*Setting the position to relative appears to have resolved the issue. I believe this causes the anchor element's z-index to be higher than the FontAwesome icon. When I have more time, I will try and research more about the class and styling applied by FontAwesome*
+
+Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)**
 ## Deployment
 
 <!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
