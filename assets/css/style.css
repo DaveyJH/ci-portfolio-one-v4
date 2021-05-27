@@ -129,6 +129,15 @@ nav a {
     margin-top: max(calc(34vh - 18rem), 1rem);
     width: min(100%, 60rem);
     margin-left: calc(50% - min(50%, 30rem));
+    animation: image-grow 0.7s 0.2s both;
+}
+@keyframes image-grow {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 #overlay-text-container {
     background-color:#D2C1D688;
@@ -857,7 +866,7 @@ and (min-height: 700px) {
         height: 4.2rem;
     }
 }
-/* [desktop + large tablets] */
+/* [desktop + large tablets] show additional images on index, display gallery selection side-by-side */
 @media screen and (orientation: landscape)
 and (min-width: 1200px) {
     /* index.html */
@@ -898,6 +907,7 @@ and (min-width: 1200px) {
         height: 40.2rem;
         width: auto;
         box-shadow: 2rem 2rem #cebbc966;
+        animation: none;
     }
     .middle {
         z-index: 2;
