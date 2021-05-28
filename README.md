@@ -319,6 +319,8 @@ The site is now live and operational
     - The silhouette background image is from [Unsplash](https://unsplash.com)
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Spencer Barriball](https://github.com/5pence), for the guidance and encouragement given throughout the project. Following his advice, I have really refined the project and am very happy with the result
+- Thanks to jo_ci at Code Institute for pointing me in the right direction to ensure my FontAwesome icons do not cause accessibility issues
+    [FontAwesome Accessibility](https://fontawesome.com/v5.15/how-to-use/on-the-web/other-topics/accessibility)
 ***
 ### Personal Development
 
