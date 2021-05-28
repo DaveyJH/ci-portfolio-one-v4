@@ -142,8 +142,8 @@ The images will be compressed using *[Compressor.io](https://compressor.io/)*
 7. The about page allows a little insight into the person behind the photographs
 >*"As a returning visitor...**I am interested in learning a little more about Katie**"*
 - *the about page gives some basic information about Katie's achievments and what she does. It also contains an image of her so people may recognise her*
-    ![About Snip](./readme-content/images/about.png)
 
+    ![About Snip](./readme-content/images/about.png)
 ***
 8. The contact page allows enquiries to be sent directly to Katie
 >*"As an interested person...**I want to be able to contact Katie**"*
@@ -219,8 +219,10 @@ All page tests are shown [here](w3c.md) and I have included a brief explanation 
 
 I have run the entire website through Chrome's lighthouse audit service and the results are shown below
 - Mobile
+
 ![Mobile Lighthouse Results](./readme-content/images/testing/lighthouse-mob.png)
 - Desktop
+
 ![Desktop Lighthouse Results](./readme-content/images/testing/lighthouse-desktop.png)
 ***
 ## Bugs
