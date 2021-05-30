@@ -232,14 +232,17 @@ I have run the entire website through Chrome's lighthouse audit service and the 
 *This appears to be due to the methods of spacing and sizing I have used. At this stage, I am not going to attempt to fix this as the UX is only slightly effected and more research leads me to believe the media queries I have used are not specific enough for iOS products*
 ***
 ### Resolved
+**Rework of media queries means some fixes are no longer included in the deployed version. Bug fixes left in README to show method and progression**
 1. The anchor elements in the nav section do not span the 'tab' which they sit in. More evident on wider screens, could lead to bad UX
 
-***index.html** - lines - **31 - 33***
+***index.html** - lines - **33 - 35***
 ~~~
     <li class="active">
         <a href="./index.html">home</a>
     </li>
 ~~~
+*Original Fix*
+
 *Putting the text in a div as a child of the anchor has resolved the issue. The div is a  block element, and so, fills the width of the anchor. This reduces the chance of a bad UX from the tab not accepting user input even though it has changed colour*
 
 ***index.html** - lines - **31 - 37***
@@ -253,6 +256,33 @@ I have run the entire website through Chrome's lighthouse audit service and the 
     </li>
 ~~~
 *Commit - **[9ed8b54](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/9ed8b5488bbbd882e5775e213c983fddad779b27#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051R32-R57)***
+
+***Revised Fix***
+
+*Setting a size to the nav anchor elements, via the CSS stylesheet, has allowed the divs to be removed from within the list elements*
+
+***style.css** - lines - **107 - 113***
+~~~
+nav a {
+    display: block;
+    width: calc(100% + .8em);
+    position: relative;
+    left: -.4em;
+    height: calc(100% + .2em);
+}
+~~~
+
+***index.html** - lines - **33 - 55***
+~~~
+<li class="active">
+    <a href="./index.html" title="Home">home</a>
+</li>
+~~~
+*Commit - **[ead1d8d](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/ead1d8d09a0ab949ef7d8777e88910d37be40dd4#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR106-R112)***
+
+*Commit - **[578d1ad](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/578d1ad4be8678219fd2efdc31686ceef30bb7ad)***
+
+*Commit - **[3109537](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/3109537f1ad19d972f4c4e668d4598d3bf62d58f)***
 ***
 2. The text in the overlay container overflows out the top on smalls screens
 ![Text Overflow](./readme-content/images/text-overflow.png)
@@ -282,7 +312,7 @@ footer span a {
 *Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)***
 ***
 ## Deployment
-Throughout the project, I have used VSCode with source control and a number of extensions. I have also used GitHubs desktop application. The two programs have allowed me to stage and commit files as and when necessary. Once committed, deploying the prject to a live site has been achieved via the following
+Throughout the project, I have used VSCode with source control and a number of extensions. I have also used GitHubs desktop application. The two programs have allowed me to stage and commit files as and when necessary. Once committed, deploying the project to a live site has been achieved via the following
 
 **Github Pages**
 - Navigate to the relevant GitHub Repository [here](https://github.com/DaveyJH/ci-portfolio-one-v4)
