@@ -208,6 +208,8 @@ All anchor elements have been tested to ensure the correct href value has been u
 
 All user requirements have been addressed and tested as shown in [Existing Features](#Existing-Features)
 
+I have input various formats of data into the form on the contact page. As expected, the form requires all entries to be completed, will only allow a valid e-mail (with @ included), and returns an error message if submit is selected without the form being completed. ***The page will refresh if all parameters are correct and submit is selected** - See [Features Left to Implement - 2.](#Features-Left-To-Implement)*
+
 I have run the website through [a11y Contrast Accessibility Validator](color.a11y.com) and the result is shown below
 ![Contrast Check Results](./readme-content/images/testing/contrast-check.png)
 *As shown in the image, there is one failure on this test. The failed element is the footer text, which links to me as an author of the website, and I am happy to leave this as it is. The element in question is intended to be subtle and is not relevant to the content of the site. I believe changing the style of this element to pass the contrast check could cause it to distract from the purpose of the main site*
