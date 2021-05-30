@@ -280,6 +280,7 @@ footer span a {
 *Setting the position to relative appears to have resolved the issue. I believe this causes the anchor element's z-index to be higher than the FontAwesome icon. When I have more time, I will try and research more about the class and styling applied by FontAwesome*
 
 *Commit - **[5847e65](https://github.com/DaveyJH/ci-portfolio-one-v4/commit/5847e655d53517ef85bfbe9b267e1f437a5b6f4a#diff-a72d4ee198d130c997b203ecb2f5c54d84617b3cdf7bd9eaab804be78e2709aeR183-R185)***
+***
 ## Deployment
 Throughout the project, I have used VSCode with source control and a number of extensions. I have also used GitHubs desktop application. The two programs have allowed me to stage and commit files as and when necessary. Once committed, deploying the prject to a live site has been achieved via the following
 
